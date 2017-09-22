@@ -72,7 +72,7 @@ sections:
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/cosmosdb.svg'
             title: Creare un'app .NET con Cosmos DB
-            href: 'https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnet-application'
+            href: 'https://docs.microsoft.com/en-us/azure/cosmos-db/create-documentdb-dotnet'
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/fabric.svg'
             title: Creare un'app di microservizio .NET con Service Fabric
@@ -115,4 +115,4 @@ sections:
           - html: '<a href="https://docs.microsoft.com/azure/container-service/container-service-kubernetes-windows-walkthrough">Introduzione a Kubernetes e ai contenitori Windows</a>'
           - html: '<a href="https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet">Connettersi al database SQL di Azure ed eseguire query sul database</a>'
           - html: '<a href="https://docs.microsoft.com/azure/postgresql/connect-csharp">Connettersi al database di Azure per PostgreSQL ed eseguire query sul database</a>'
-          - html: '<a href="https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnetcore-get-started">Introduzione all''API DocumentDB per Cosmos DB</a>'
+          - html: '<a href="https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnetcore-get-started">Introduzione all''API DocumentDB per Cosmos DB in .NET Core</a>'
