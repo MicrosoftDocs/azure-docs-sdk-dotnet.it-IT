@@ -63,6 +63,7 @@
       }
     ],
     "globalMetadata": {
+      "bilingual_type": "hover over",
       "author": "erickson-doug",
       "ms.author": "douge",
       "manager": "douge",
@@ -86,7 +87,7 @@
           "folder_relative_path_in_docset": "scripts"
         }
       }
-     },
+    },
     "fileMetadata": {
       "ms.service": {
         "api/Microsoft.Identitymodel*.yml": "active-directory",
