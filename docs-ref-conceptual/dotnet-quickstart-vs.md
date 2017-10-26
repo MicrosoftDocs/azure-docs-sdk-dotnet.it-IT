@@ -11,11 +11,11 @@ ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.assetid: 
-ms.openlocfilehash: 1defed888972ae2f9d60d57bc34c518df9b5867c
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.openlocfilehash: eb7aa364cae9deea4ed2052eefdbd51c85379afa
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="get-started-with-net-for-azure-developers"></a>Introduzione a .NET per sviluppatori di Azure
 
@@ -24,7 +24,7 @@ Questa esercitazione illustrerà in modo dettagliato la creazione e la distribuz
 ## <a name="prerequisites"></a>Prerequisiti
 
 * [Visual Studio 2017](https://www.visualstudio.com/downloads/)
-* Una [sottoscrizione di Microsoft Azure](https://azure.microsoft.com/free/)
+* Una [sottoscrizione di Microsoft Azure](https://azure.microsoft.com/free/).
 
 ## <a name="create-a-cosmosdb-account"></a>Creare un account CosmosDB
 
@@ -74,7 +74,7 @@ Prendere nota dei valori visualizzati per **authKey** ed **endpoint**
 
 4. Premere **F5** per ripristinare i pacchetti NuGet del progetto, compilare il progetto ed eseguire in locale.
 
-L'applicazione Web verrà eseguita in locale nel browser.  È possibile aggiungere nuovi elementi all'elenco attività facendo clic su **Crea nuovo**.  I dati immessi nell'applicazione vengono archiviati nell'account CosmosDB.  È possibile [visualizzare i dati nel portale di Azure](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-view-json-document-explorer).
+L'applicazione Web verrà eseguita in locale nel browser.  È possibile aggiungere nuovi elementi all'elenco attività facendo clic su **Crea nuovo**.  I dati immessi nell'applicazione vengono archiviati nell'account CosmosDB.  È possibile [visualizzare i dati nel portale di Azure](/azure/documentdb/documentdb-view-json-document-explorer).
 
 ## <a name="deploying-the-application-as-an-azure-web-app"></a>Distribuzione dell'applicazione come app Web di Azure
 

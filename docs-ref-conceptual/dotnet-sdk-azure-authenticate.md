@@ -4,19 +4,19 @@ description: Eseguire l'autenticazione per le librerie di Azure per .NET
 keywords: "Azure, .NET, SDK, API, autenticazione, active directory, entità servizio"
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 06/20/2017
-ms.topic: article
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
-ms.assetid: 
-ms.openlocfilehash: 5bc1f4a576ae3bb38e9d29c890ea79bc0871cd01
-ms.sourcegitcommit: fa02d34afbf981f809661ab842b3b93242a38f68
+ms.custom: devcenter
+ms.openlocfilehash: c9755d7e9c20186c7677b4bfe69d4033f9852607
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/30/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="authenticate-with-the-azure-libraries-for-net"></a>Eseguire l'autenticazione con le librerie di Azure per .NET
 
@@ -53,7 +53,7 @@ var account = CloudStorageAccount.Parse(storageConnectionString);
 // Do things with the account here...
 ```
 
-Le stringhe di connessione dei servizi vengono usate anche in altri servizi di Azure, come [CosmosDB](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-dotnet-application#a-nametoc395637769astep-5-wiring-up-azure-cosmos-db), [Cache Redis](https://docs.microsoft.com/en-us/azure/redis-cache/cache-dotnet-how-to-use-azure-redis-cache) e [bus di servizio](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues), ed è possibile ottenere queste stringhe usando il portale di Azure, l'interfaccia della riga di comando o PowerShell.  È anche possibile usare le librerie di gestione di Azure per .NET per eseguire query nelle risorse per creare stringhe di connessione nel codice. 
+Le stringhe di connessione dei servizi vengono usate anche in altri servizi di Azure, come [CosmosDB](/azure/documentdb/documentdb-dotnet-application#a-nametoc395637769astep-5-wiring-up-azure-cosmos-db), [Cache Redis](/azure/redis-cache/cache-dotnet-how-to-use-azure-redis-cache) e [bus di servizio](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues), ed è possibile ottenere queste stringhe usando il portale di Azure, l'interfaccia della riga di comando o PowerShell.  È anche possibile usare le librerie di gestione di Azure per .NET per eseguire query nelle risorse per creare stringhe di connessione nel codice. 
 
 Questo frammento di codice usa le librerie di gestione per creare una stringa di connessione dell'account di archiviazione:
 

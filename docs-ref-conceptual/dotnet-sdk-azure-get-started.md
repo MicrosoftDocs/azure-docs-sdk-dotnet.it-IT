@@ -4,19 +4,19 @@ description: Introduzione all'uso di base delle librerie di Azure per .NET con l
 keywords: Azure, .NET, SDK, API, autenticare, introduzione
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 06/20/2017
-ms.topic: get-started-article
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
-ms.assetid: 
-ms.openlocfilehash: 0379609e863c674de4518d5ed615b6b4f9c46a12
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.custom: devcenter
+ms.openlocfilehash: 80f796493362a84474f5913a26ad6802f68a4906
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="get-started-with-the-azure-net-apis"></a>Introduzione alle API .NET di Azure
 
@@ -25,7 +25,7 @@ Questa esercitazione illustra l'utilizzo di alcune [API di Azure per .NET](/dotn
 ## <a name="prerequisites"></a>Prerequisiti
 
 - Un account Azure. Se non è disponibile, [ottenere una versione di valutazione gratuita](https://azure.microsoft.com/free/)
-- [Azure PowerShell](https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps)
+- [Azure PowerShell](/powershell/azure/install-azurerm-ps)
 
 ## <a name="set-up-authentication"></a>Configurare l'autenticazione
 
