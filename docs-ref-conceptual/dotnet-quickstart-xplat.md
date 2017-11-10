@@ -1,6 +1,6 @@
 ---
-title: .NET per sviluppatori di Azure
-description: .NET per sviluppatori di Azure
+title: Distribuire in Azure dalla riga di comando con .NET Core
+description: Questo articolo descrive come distribuire un'applicazione ASP.NET Core in un servizio app di Azure tramite gli strumenti da riga di comando.
 keywords: Azure .NET, SDK, informazioni di riferimento sulle API .NET di Azure, libreria di classi .NET di Azure
 author: camsoper
 manager: douge
@@ -11,19 +11,19 @@ ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.assetid: 
-ms.openlocfilehash: 14374182ee0511e942940797465858b94ec08876
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.openlocfilehash: 2ed69bfed7310c9e6b2f3f8fedb906ce33d87c3c
+ms.sourcegitcommit: c630918c9e17f5e3c6d4f28fe740c041f60b1e66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 11/03/2017
 ---
-# <a name="get-started-with-net-cli-tools-for-azure-developers"></a>Introduzione agli strumenti dell'interfaccia della riga di comando di .NET per gli sviluppatori di Azure
+# <a name="deploy-to-azure-from-the-command-line-with-net-core"></a>Distribuire in Azure dalla riga di comando con .NET Core
 
 Questa esercitazione illustrerà in modo dettagliato la creazione e la distribuzione di un'applicazione di Microsoft Azure con .NET Core.  Al termine, sarà disponibile un'applicazione di tipo "elenco attività" basata sul Web, compilata in ASP.NET MVC Core, ospitata come app Web di Azure e con Azure CosmosDB per l'archiviazione dei dati.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-* Una [sottoscrizione di Microsoft Azure](https://azure.microsoft.com/free/)
+* Una [sottoscrizione di Microsoft Azure](https://azure.microsoft.com/free/).
 * [.NET Core](https://www.microsoft.com/net/download/core) (facoltativo)
 * [Interfaccia della riga di comando di Azure 2.0](/cli/azure/install-az-cli2) (facoltativo)
 * Client della riga di comando [Git](https://www.git-scm.com/) (facoltativo)
