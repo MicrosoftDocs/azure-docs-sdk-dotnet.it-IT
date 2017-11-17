@@ -1,0 +1,70 @@
+---
+title: Librerie di Azure Cosmos DB per .NET
+description: Informazioni di riferimento sulle librerie di Azure Cosmos DB per .NET
+keywords: Azure, .NET, SDK, API, Cosmos DB
+author: camsoper
+ms.author: casoper
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
+ms.prod: azure
+ms.technology: azure
+ms.devlang: dotnet
+ms.service: cosmos-db
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: 890c00caeca06bf863425c7159d7833c4db8df38
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 10/26/2017
+---
+# <a name="azure-cosmosdb-libraries-for-net"></a><span data-ttu-id="3c614-104">Librerie di Azure Cosmos DB per .NET</span><span class="sxs-lookup"><span data-stu-id="3c614-104">Azure CosmosDB libraries for .NET</span></span>
+
+## <a name="overview"></a><span data-ttu-id="3c614-105">Panoramica</span><span class="sxs-lookup"><span data-stu-id="3c614-105">Overview</span></span>
+
+<span data-ttu-id="3c614-106">[Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction) è un archivio dati distribuito e scalabile che supporta vari tipi diversi di database.</span><span class="sxs-lookup"><span data-stu-id="3c614-106">[Azure CosmosDB](https://docs.microsoft.com/azure/cosmos-db/introduction) is a distributed and scalable data store, supporting multiple different types of databases.</span></span>
+
+## <a name="client-library"></a><span data-ttu-id="3c614-107">Libreria client</span><span class="sxs-lookup"><span data-stu-id="3c614-107">Client library</span></span>
+
+<span data-ttu-id="3c614-108">Usare la libreria client di Cosmos DB per .NET per accedere ai dati e archiviarli in un archivio dati Cosmos DB.</span><span class="sxs-lookup"><span data-stu-id="3c614-108">Use the CosmosDB .NET client library to access and store data in a CosmosDB data store.</span></span>
+
+<span data-ttu-id="3c614-109">Installare il [pacchetto NuGet](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.Core) direttamente dalla [Console di Gestione pacchetti][PackageManager] di Visual Studio o tramite l'[interfaccia della riga di comando di .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="3c614-109">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.Core) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="3c614-110">Visual Studio - Gestione pacchetti</span><span class="sxs-lookup"><span data-stu-id="3c614-110">Visual Studio Package Manager</span></span>
+
+```powershell
+Install-Package Microsoft.Azure.DocumentDB.Core
+```
+
+#### <a name="net-core-cli"></a><span data-ttu-id="3c614-111">Interfaccia della riga di comando di .NET Core</span><span class="sxs-lookup"><span data-stu-id="3c614-111">.NET Core CLI</span></span>
+
+```bash
+dotnet add package Microsoft.Azure.DocumentDB.Core
+```
+
+### <a name="code-example"></a><span data-ttu-id="3c614-112">Esempio di codice</span><span class="sxs-lookup"><span data-stu-id="3c614-112">Code Example</span></span>
+
+<span data-ttu-id="3c614-113">Questo esempio mostra come connettersi a un database dell'API DocumentDB di Cosmos DB, eseguire la lettura di un documento da una raccolta e deserializzare il documento come un oggetto `Item`.</span><span class="sxs-lookup"><span data-stu-id="3c614-113">This example connects to an existing CosmosDB DocumentDB API database, reads a document from a collection, and deserializes it as an `Item` object.</span></span>
+
+```csharp
+/* Include this "using" directive...
+using Microsoft.Azure.Documents.Client;
+*/
+
+DocumentClient client = new DocumentClient(endpointUri, authKeyString);
+Uri documentUri = UriFactory.CreateDocumentUri("MyDatabaseName", "MyCollectionName", "DocumentId");
+// "Item" is a class defined elsewhere...
+Item item = client.ReadDocumentAsync<Item>(documentUri).ToString()).Result;
+```
+
+> [!div class="nextstepaction"]
+> [<span data-ttu-id="3c614-114">Esplorare le API client</span><span class="sxs-lookup"><span data-stu-id="3c614-114">Explore the client APIs</span></span>](/dotnet/api/overview/azure/cosmosdb/client)
+
+## <a name="samples"></a><span data-ttu-id="3c614-115">Esempi</span><span class="sxs-lookup"><span data-stu-id="3c614-115">Samples</span></span>
+
+* <span data-ttu-id="3c614-116">[Develop a Java app using Azure Cosmos DB MongoDB API](https://azure.microsoft.com/en-us/resources/samples/azure-cosmos-db-mongodb-dotnet-getting-started/) (Sviluppare un'app Java con l'API MongoDB di Azure Cosmos DB)</span><span class="sxs-lookup"><span data-stu-id="3c614-116">[Developing a .NET app using Azure Cosmos DB's MongoDB API](https://azure.microsoft.com/en-us/resources/samples/azure-cosmos-db-mongodb-dotnet-getting-started/)</span></span>
+
+<span data-ttu-id="3c614-117">Visualizzare l'[elenco completo](https://azure.microsoft.com/en-us/resources/samples/?platform=dotnet&term=cosmosdb) degli esempi di codice per Azure Cosmos DB.</span><span class="sxs-lookup"><span data-stu-id="3c614-117">View the [complete list](https://azure.microsoft.com/en-us/resources/samples/?platform=dotnet&term=cosmosdb) of Azure Cosmos DB samples.</span></span>
+
+[PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
+[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package

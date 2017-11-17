@@ -1,0 +1,1 @@
+# <a name="index-test-file-for-open-publishing"></a>File di test dell'indice per la pubblicazione
