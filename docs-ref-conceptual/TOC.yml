@@ -37,14 +37,26 @@
           href: /azure/cosmos-db/documentdb-dotnetcore-get-started
     - name: Procedure
       items:
+        - name: Migrazione
+          items:
+            - name: Scegliere l'opzione di hosting di Azure più adatta
+              href: dotnet-howto-choose-migration.md
+            - name: Eseguire la migrazione di un'app ASP.NET al servizio app di Azure
+              href: dotnet-howto-migrate-app-service.md
+            - name: Eseguire la migrazione di un'app ASP.NET a una VM di Azure
+              href: dotnet-howto-migrate-to-vm.md
+            - name: Eseguire la migrazione di un database SQL Server ad Azure
+              href: dotnet-howto-migrate-sql.md
         - name: Autenticazione
           href: dotnet-sdk-azure-authenticate.md
-        - name: API Fluent
+        - name: Usare le API Fluent
           href: dotnet-sdk-azure-concepts.md
-        - name: Distribuire con Visual Studio
-          href: dotnet-quickstart-vs.md
-        - name: Distribuire con gli strumenti da riga di comando
-          href: dotnet-quickstart-xplat.md
+        - name: Distribuire
+          items:
+            - name: Distribuire con Visual Studio
+              href: dotnet-quickstart-vs.md
+            - name: Distribuire con gli strumenti da riga di comando
+              href: dotnet-quickstart-xplat.md
         - name: Database
           href: dotnet-tutorials-services-databases.md
         - name: Archiviazione
@@ -53,7 +65,7 @@
           href: dotnet-tutorials-services-containers.md
         - name: Messaggistica e IoT
           href: dotnet-tutorials-services-messaging-iot.md
-        - name: Usare l'intelligenza artificiale e servizi cognitivi
+        - name: AI e servizi cognitivi
           href: dotnet-tutorials-services-ai-cognitive.md
         - name: Dati e analisi
           href: dotnet-tutorials-services-analytics.md
