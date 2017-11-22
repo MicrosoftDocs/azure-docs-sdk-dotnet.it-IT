@@ -77,6 +77,10 @@ sections:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/fabric.svg'
             title: Creare un'app di microservizio .NET con Service Fabric
             href: 'https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet'
+          - image:
+              src: 'https://docs.microsoft.com/media/logos/logo_vs-team-services.svg'
+            title: Creare una pipeline di integrazione continua/distribuzione continua per .NET
+            href: 'https://docs.microsoft.com/vsts/build-release/apps/cd/azure/azure-devops-project-aspnetcore'
   - title: Introduzione a .NET in Azure
     items:
       - type: markdown
