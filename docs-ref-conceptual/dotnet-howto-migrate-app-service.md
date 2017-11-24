@@ -11,11 +11,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: app-service
 ms.custom: devcenter
-ms.openlocfilehash: 1e2274c428fedc8c65627a99ae7be8a15c85e610
-ms.sourcegitcommit: c360a22d5bff6eedd714b28b847d2f26b06665f4
+ms.openlocfilehash: 8ad1bcd11a823c1b6f7e592a5990dd6f7ed06e97
+ms.sourcegitcommit: ccc95adb96cf7d56ebce5e09bedf10c2d48f5e1f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="migrate-an-aspnet-web-application-to-azure-app-service"></a>Eseguire la migrazione di un'applicazione Web ASP.NET al servizio app di Azure
 
@@ -57,4 +57,4 @@ Se l'applicazione salva in modo permanente i dati, sarà necessario aggiornarla 
 ## <a name="next-steps"></a>Passaggi successivi
 
 > [!div class="nextstepaction"]
-> [Eseguire la migrazione di un'applicazione Web ASP.NET a una macchina virtuale di Azure](dotnet-howto-migrate-to-vm.md)
+> [Eseguire la migrazione di un'applicazione Web ASP.NET al servizio app di Azure](https://aka.ms/azure-webapp-migrate)
