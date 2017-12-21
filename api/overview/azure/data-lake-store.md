@@ -12,11 +12,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: data-lake-store
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 2b1c51575872b12a94eb44c7c082996bb879bcc9
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: e8380c4a9ebf86f03fe87fc800dffda10e48e60a
+ms.sourcegitcommit: 3e904e6e4f04f1c92d729459434c85faff32e386
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="azure-data-lake-store-libraries-for-net"></a>Librerie di Azure Data Lake Store per .NET
 
@@ -25,6 +25,39 @@ ms.lasthandoff: 10/26/2017
 Azure Data Lake Store è un repository su vasta scala a livello aziendale per carichi di lavoro di analisi di Big Data. Azure Data Lake consente di acquisire dati di qualsiasi dimensione, tipo e velocità di inserimento in un'unica posizione per le analisi esplorative e operative.
 
 Per altre informazioni, vedere [Panoramica di Azure Data Lake Store](/azure/data-lake-store/data-lake-store-overview).
+
+## <a name="client-library"></a>Libreria client
+
+Usare la libreria client per eseguire operazioni del file system in Data Lake Store, ad esempio la creazione di cartelle in un account Data Lake Store, il caricamento di file e il download di file.  Per un'esercitazione completa sull'uso di Data Lake Store con .NET, vedere [Operazioni del file system in Azure Data Lake Store con .NET SDK](/azure/data-lake-store/data-lake-store-data-operations-net-sdk).
+
+Installare il [pacchetto NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.DataLake.Store) direttamente dalla [Console di Gestione pacchetti][PackageManager] di Visual Studio o tramite l'[interfaccia della riga di comando di .NET Core][DotNetCLI].
+
+#### <a name="visual-studio-package-manager"></a>Visual Studio - Gestione pacchetti
+
+```powershell
+Install-Package Microsoft.Azure.DataLake.Store
+```
+
+```bash
+dotnet add package Microsoft.Azure.DataLake.Store
+```
+### <a name="authentication"></a>Autenticazione
+
+* Per l'autenticazione dell'utente finale per l'applicazione, vedere [End-user authentication with Data Lake Store using .NET SDK](/azure/data-lake-store/data-lake-store-end-user-authenticate-net-sdk) (Autenticazione dell'utente finale con Data Lake Store tramite .NET SDK).
+* Per l'autenticazione da servizio a servizio per l'applicazione, vedere [Service-to-service authentication with Data Lake Store using .NET SDK](/azure/data-lake-store/data-lake-store-service-to-service-authenticate-net-sdk) (Autenticazione da servizio a servizio con Data Lake Store tramite .NET SDK).
+
+### <a name="code-example"></a>Esempio di codice
+
+Il frammento di codice seguente crea l'oggetto client del file system di Data Lake Store, usato per inviare richieste al servizio.
+
+```csharp
+// Create client objects
+AdlsClient client = AdlsClient.CreateClient(_adlsAccountName, adlCreds);
+```
+
+> [!div class="nextstepaction"]
+> [Esplorare le API client](/dotnet/api/overview/azure/datalakestore/client)
+
 
 ## <a name="management-library"></a>Libreria di gestione
 
@@ -42,30 +75,9 @@ Install-Package Microsoft.Azure.Management.DataLake.Store
 dotnet add package Microsoft.Azure.Management.DataLake.Store
 ```
 
-### <a name="code-example"></a>Esempio di codice
-
-Questo esempio esegue l'autenticazione di un account e un archivio di analisi e crea i client necessari per la gestione.
-
-```csharp
-/*
-using AdlClient
-using AdlClient.Models 
-*/
-
-// Setup authentication 
-Authentication auth = new Authentication("microsoft.onmicrosoft.com"); // change this to YOUR tenant
-auth.Authenticate();
-
-// Identify the accounts
-StoreAccountRef adls_account = new StoreAccountRef(subscriptionId, resourceGroup, userName);
-
-// Create the clients
-AzureClient az = new AzureClient(auth);
-StoreClient adls = new StoreClient(auth, adls_account);
-```
-
 > [!div class="nextstepaction"]
-> [Esplorare le API di gestione](/dotnet/api/overview/azure/datalakestore/management)
+> [Esplorare le API client](/dotnet/api/overview/azure/datalakestore/management)
+
 
 ## <a name="samples"></a>Esempi
 
