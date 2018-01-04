@@ -14,6 +14,8 @@
           href: 'https://docs.microsoft.com/azure/cosmos-db/create-documentdb-dotnet'
         - name: Service Fabric
           href: 'https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet'
+        - name: Archiviazione BLOB
+          href: 'https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-dotnet'
     - name: Introduzione a .NET
       href: dotnet-sdk-azure-get-started.md
     - name: Strumenti
@@ -47,7 +49,7 @@
               href: dotnet-howto-migrate-to-vm.md
             - name: Eseguire la migrazione di un database SQL Server ad Azure
               href: dotnet-howto-migrate-sql.md
-        - name: Autenticazione
+        - name: Authentication
           href: dotnet-sdk-azure-authenticate.md
         - name: Usare le API Fluent
           href: dotnet-sdk-azure-concepts.md
