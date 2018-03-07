@@ -11,7 +11,7 @@
         - name: Database SQL
           href: 'https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet'
         - name: Cosmos DB
-          href: 'https://docs.microsoft.com/azure/cosmos-db/create-documentdb-dotnet'
+          href: 'https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet'
         - name: Service Fabric
           href: 'https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet'
         - name: Archiviazione BLOB
@@ -35,8 +35,8 @@
           href: /azure/sql-database/sql-database-connect-query-dotnet
         - name: Connettersi ed eseguire query con PostgreSQL
           href: /azure/postgresql/connect-csharp
-        - name: Introduzione all'API DocumentDB per Cosmos DB
-          href: /azure/cosmos-db/documentdb-dotnetcore-get-started
+        - name: Introduzione all'API SQL di Cosmos DB
+          href: /azure/cosmos-db/sql-api-get-started
     - name: Procedure
       items:
         - name: Migrazione
