@@ -10,18 +10,17 @@ ms.topic: article
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.assetid: 
-ms.openlocfilehash: 2ed69bfed7310c9e6b2f3f8fedb906ce33d87c3c
-ms.sourcegitcommit: c630918c9e17f5e3c6d4f28fe740c041f60b1e66
+ms.openlocfilehash: bb5d4958fb4398192d8427391695da1a7b8cc3c8
+ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="deploy-to-azure-from-the-command-line-with-net-core"></a>Distribuire in Azure dalla riga di comando con .NET Core
 
 Questa esercitazione illustrerà in modo dettagliato la creazione e la distribuzione di un'applicazione di Microsoft Azure con .NET Core.  Al termine, sarà disponibile un'applicazione di tipo "elenco attività" basata sul Web, compilata in ASP.NET MVC Core, ospitata come app Web di Azure e con Azure CosmosDB per l'archiviazione dei dati.
 
-## <a name="prerequisites"></a>Prerequisiti
+## <a name="prerequisites"></a>prerequisiti
 
 * Una [sottoscrizione di Microsoft Azure](https://azure.microsoft.com/free/).
 * [.NET Core](https://www.microsoft.com/net/download/core) (facoltativo)

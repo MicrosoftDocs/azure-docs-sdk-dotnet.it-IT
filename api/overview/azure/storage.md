@@ -12,17 +12,17 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: storage
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: f9928736fa024258bcf19ba5ad91f0a328aa05a8
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: 8f6e0414b54698d0a1dbe3d4c074456a6ad7b7be
+ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="azure-storage-apis-for-net"></a>API di archiviazione di Azure per .NET
 
 ## <a name="overview"></a>Panoramica
 
-Eseguire la lettura e la scrittura di file, dati di BLOB (oggetto), coppie chiave-valore e messaggi dalle applicazioni .NET con l'[Archiviazione di Azure](https://review.docs.microsoft.com/en-us/azure/storage/storage-introduction).
+Eseguire la lettura e la scrittura di file, dati di BLOB (oggetto), coppie chiave-valore e messaggi dalle applicazioni .NET con l'[Archiviazione di Azure](https://review.docs.microsoft.com/azure/storage/storage-introduction).
 
 Per iniziare a usare Archiviazione di Azure, vedere [Introduzione all'archivio BLOB di Azure con .NET](/azure/storage/storage-dotnet-how-to-use-blobs).
 

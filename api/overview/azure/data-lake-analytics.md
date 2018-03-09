@@ -12,11 +12,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: data-lake-analytics
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: aa99608ec5568450a90cc2b93c3f1c5d0e38bfb1
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: 063513d8c523330276cdfc222d3ca00a9629f63a
+ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="azure-data-lake-analytics-libraries-for-net"></a>Librerie di Azure Data Lake Analytics per .NET
 
@@ -67,7 +67,7 @@ AnalyticsClient adla = new AnalyticsClient(auth, adla_account);
 > [Esplorare le API di gestione](/dotnet/api/overview/azure/datalakeanalytics/management)
 
 ## <a name="samples"></a>Esempi
-* [Azure Data Lake .NET Client Example](https://azure.microsoft.com/en-us/resources/samples/data-lake-dotnet-client/) (Esempio di client di Azure Data Lake per .NET)
+* [Azure Data Lake .NET Client Example](https://azure.microsoft.com/resources/samples/data-lake-dotnet-client/) (Esempio di client di Azure Data Lake per .NET)
 
 Esplorare altro [codice .NET di esempio](https://azure.microsoft.com/resources/samples/?platform=dotnet) da usare nelle app.
 

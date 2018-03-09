@@ -7,16 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 9a67edadc6e91d2ead82f41601e561809d6a811c
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: b817216e114e5ab3ff22c1c5adb0f892c7874147
+ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="azure-management-library-for-net-fluent-concepts"></a>Concetti relativi alla libreria di gestione per .NET Fluent
 
@@ -74,14 +73,14 @@ I metodi della raccolta di risorse i cui nomi includono verbi consentono di eseg
 |--------|---------------|
 | Create | `azure.VirtualMachines.Create(listOfVMCreatables)` |
 | Applica  | `virtualMachineScaleSet.Update().WithCapacity(6).Apply()` |
-| Elimina | `azure.Disks.DeleteById(id)` | 
+| Delete | `azure.Disks.DeleteById(id)` | 
 | Elenco   | `azure.SqlServers.List()` | 
 | Get    | `var vm  = azure.VirtualMachines.GetByResourceGroup(group, vmName)` |
 
 >[!NOTE]
 > `Define()` e `Update()` sono verbi ma non bloccano l'esecuzione, a meno che non siano seguiti da `Create()` o `Apply()`.
  
-Alcuni oggetti di risorse specifici includono verbi che consentono di modificare lo stato della risorsa in Azure. ad esempio:
+Alcuni oggetti di risorse specifici includono verbi che consentono di modificare lo stato della risorsa in Azure. Ad esempio: 
 
 ```csharp
 var vmToRestart = azure.VirtualMachines.GetById(id);
