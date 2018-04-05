@@ -1,6 +1,6 @@
 ---
 title: Esercitazioni per la gestione e il monitoraggio di app .NET in Azure
-description: "Monitorare l'integrità e le prestazioni dell'applicazione .NET in esecuzione in Azure e instrumentare la telemetria in modo da salvare informazioni sul modo in cui gli utenti usano l'app."
+description: Monitorare l'integrità e le prestazioni dell'applicazione .NET in esecuzione in Azure e instrumentare la telemetria in modo da salvare informazioni sul modo in cui gli utenti usano l'app.
 author: camsoper
 ms.author: casoper
 manager: wpickett

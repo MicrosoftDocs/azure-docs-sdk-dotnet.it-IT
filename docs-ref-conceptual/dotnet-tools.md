@@ -1,6 +1,6 @@
 ---
 title: Strumenti per gli sviluppatori .NET in Azure
-description: "È possibile ottenere gli strumenti per iniziare a usare le librerie .NET di Azure da un ambiente Windows, Linux o Mac."
+description: È possibile ottenere gli strumenti per iniziare a usare le librerie .NET di Azure da un ambiente Windows, Linux o Mac.
 keywords: Azure .NET, SDK, informazioni di riferimento sulle API .NET di Azure, libreria di classi .NET di Azure
 author: camsoper
 ms.author: casoper

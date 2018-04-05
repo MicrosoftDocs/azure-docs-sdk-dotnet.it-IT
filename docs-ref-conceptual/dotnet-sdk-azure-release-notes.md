@@ -1,6 +1,6 @@
 ---
 title: Note sulla versione delle librerie di gestione di Azure per .NET | Microsoft Docs
-description: "Informazioni sulle novità e sulle modifiche di rilievo nelle librerie di gestione di Azure per .NET."
+description: Informazioni sulle novità e sulle modifiche di rilievo nelle librerie di gestione di Azure per .NET.
 keywords: Azure, .NET, API, informazioni di riferimento, note, aggiornamenti, deprecare
 author: camsoper
 ms.author: casoper

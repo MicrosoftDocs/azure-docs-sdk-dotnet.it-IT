@@ -4,7 +4,7 @@ title: Azure per sviluppatori .NET
 metadata:
   document_id: be4f4c73-c672-4490-8fca-ae087fba8b3b
   title: Azure per sviluppatori .NET - Esercitazioni, informazioni di riferimento sulle API
-  description: "Per iniziare a sviluppare app con Azure, è possibile usare le risorse seguenti che offrono esercitazioni e strumenti utili per gli sviluppatori .NET."
+  description: Per iniziare a sviluppare app con Azure, è possibile usare le risorse seguenti che offrono esercitazioni e strumenti utili per gli sviluppatori .NET.
   keywords: Azure, .NET, SDK, API, NuGet
   author: camsoper
   ms.author: casoper
@@ -24,7 +24,8 @@ metadata:
 sections:
 - items:
   - type: markdown
-    text: "Per iniziare a sviluppare app con Azure, è possibile usare le risorse seguenti che offrono esercitazioni e strumenti utili per gli sviluppatori .NET.\n"
+    text: >
+      Per iniziare a sviluppare app con Azure, è possibile usare le risorse seguenti che offrono esercitazioni e strumenti utili per gli sviluppatori .NET.
 - items:
   - type: list
     style: cards
@@ -35,7 +36,7 @@ sections:
       html: <p>Distribuire la prima app .NET in Azure</p>
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_get-started.svg
-      title: "Attività iniziali"
+      title: Attività iniziali
     - href: https://azure.microsoft.com/resources/samples/?platform=dotnet&view=azure-dotnet
       html: <p>Esempi di codice di Azure che usano .NET</p>
       image:
