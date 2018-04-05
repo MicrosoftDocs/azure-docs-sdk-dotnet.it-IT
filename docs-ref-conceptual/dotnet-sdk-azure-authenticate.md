@@ -1,7 +1,7 @@
 ---
 title: Eseguire l'autenticazione con le librerie di Azure per .NET
 description: Eseguire l'autenticazione per le librerie di Azure per .NET
-keywords: "Azure, .NET, SDK, API, autenticazione, active directory, entità servizio"
+keywords: Azure, .NET, SDK, API, autenticazione, active directory, entità servizio
 author: camsoper
 ms.author: casoper
 manager: wpickett

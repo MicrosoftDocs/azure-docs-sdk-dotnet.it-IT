@@ -1,6 +1,6 @@
 ---
 title: Strumenti di Azure per Visual Studio 2015
-description: "È possibile ottenere gli strumenti per iniziare a usare le librerie .NET di Azure da Visual Studio 2015."
+description: È possibile ottenere gli strumenti per iniziare a usare le librerie .NET di Azure da Visual Studio 2015.
 keywords: Azure .NET, SDK, VS2015, Visual Studio 2015
 author: camsoper
 ms.author: casoper

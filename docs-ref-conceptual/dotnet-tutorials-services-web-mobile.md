@@ -1,6 +1,6 @@
 ---
 title: Esercitazioni per la creazione di app .NET Web e per dispositivi mobili in Azure
-description: "Esercitazioni per la creazione e l'aggiunta di funzionalità alle app .NET Web e per dispositivi mobili tramite i servizi di Azure."
+description: Esercitazioni per la creazione e l'aggiunta di funzionalità alle app .NET Web e per dispositivi mobili tramite i servizi di Azure.
 author: camsoper
 ms.author: casoper
 manager: wpickett

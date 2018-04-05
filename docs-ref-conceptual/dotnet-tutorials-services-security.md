@@ -1,6 +1,6 @@
 ---
 title: Esercitazioni .NET per la protezione delle app di Azure
-description: "Esercitazioni relative alla sicurezza delle applicazioni e alla gestione delle identità nelle app .NET in esecuzione in Azure."
+description: Esercitazioni relative alla sicurezza delle applicazioni e alla gestione delle identità nelle app .NET in esecuzione in Azure.
 author: camsoper
 ms.author: casoper
 manager: wpickett

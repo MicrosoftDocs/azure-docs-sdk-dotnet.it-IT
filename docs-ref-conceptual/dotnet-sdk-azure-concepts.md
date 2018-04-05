@@ -1,6 +1,6 @@
 ---
 title: Concetti e modelli di utilizzo delle librerie di gestione di Azure per .NET
-description: 
+description: ''
 keywords: Azure, .NET, SDK, API, modelli, concetti, Fluent, registrazione
 author: camsoper
 ms.author: casoper
