@@ -78,14 +78,4 @@
         - name: Monitoraggio e gestione
           href: dotnet-tutorials-services-monitoring.md
     - name: Esempi di codice .NET
-      items:
-        - name: 'Raccolta foto: app Web e archiviazione'
-          href: 'https://azure.microsoft.com/resources/samples/storage-blobs-dotnet-webapp/'
-        - name: App Web
-          href: dotnet-sdk-azure-web-apps-samples.md
-        - name: Database
-          href: dotnet-sdk-azure-sql-database-samples.md
-        - name: Macchine virtuali
-          href: dotnet-sdk-azure-virtual-machine-samples.md
-        - name: Tutti gli esempi .NET
-          href: 'https://azure.microsoft.com/resources/samples/?platform=dotnet'
+      href: dotnet-samples.md
