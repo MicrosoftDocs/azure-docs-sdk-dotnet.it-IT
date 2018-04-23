@@ -10,11 +10,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 31023bc25b73c0d02f768aeb357d7c7b5ccf88d0
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: f03f1cc7e2d973aa270f99f7ca29c9cb4d6fd720
+ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/14/2018
 ---
 # <a name="tutorials-for-using-net-with-azure-databases"></a>Esercitazioni per l'uso di .NET con database di Azure
 
@@ -28,9 +28,9 @@ Per esempi del codice sorgente, vedere l'elenco di [esempi di codice per i servi
 | [Usare .NET per connettersi ai dati ed eseguire query][1] | Usare ADO.NET per connettersi a un database SQL di Azure e quindi usare istruzioni Transact-SQL per eseguire query e inserire, aggiornare ed eliminare dati nel database. | 
 | **Database di Azure per PostgreSQL** ||
 | [Usare .NET per connettersi ai dati ed eseguire query][2] | Usare le istruzioni SQL per eseguire query, inserire, aggiornare ed eliminare dati nel database. | 
-| **Cosmos DB** ||
-| [Introduzione all'API DocumentDB][4] | Creare una semplice applicazione console con l'API DocumentDB. | 
-| [Creare un'app Web ASP.NET con Cosmos DB][3] | Creare un'applicazione Web usando il database NoSQL DocumentDB di Cosmos DB. | 
+| **Azure Cosmos DB** ||
+| [Introduzione all'API SQL Azure Cosmos DB][4] | Creare una semplice applicazione console con l'API SQL. | 
+| [Creare un'app Web ASP.NET con l'API SQL Azure Cosmos DB][3] | Creare un'applicazione Web con l'API SQL Azure Cosmos DB. | 
 | **Cache Redis** | |
 | [Come usare Cache Redis di Azure][6] | Introduzione all'uso della Cache Redis di Azure. |
 | [Creare un'app Web con la cache Redis][5] | Creare e distribuire un'applicazione Web ASP.NET in un'app Web nel servizio app di Azure usando Visual Studio 2017.  | 
@@ -40,8 +40,8 @@ Per esempi del codice sorgente, vedere l'elenco di [esempi di codice per i servi
 
 [1]: /azure/sql-database/sql-database-connect-query-dotnet
 [2]: /azure/postgresql/connect-csharp
-[3]: /azure/cosmos-db/documentdb-dotnet-application
-[4]: /azure/cosmos-db/documentdb-dotnetcore-get-started
+[3]: /azure/cosmos-db/sql-api-dotnet-application
+[4]: /azure/cosmos-db/sql-api-get-started
 [5]: /azure/redis-cache/cache-web-app-howto
 [6]: /azure/redis-cache/cache-dotnet-how-to-use-azure-redis-cache
 [7]: /azure/redis-cache/cache-aspnet-session-state-provider

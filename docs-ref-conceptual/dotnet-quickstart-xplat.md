@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.openlocfilehash: bb5d4958fb4398192d8427391695da1a7b8cc3c8
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: 8371c304681ff88cba6f1cc3ba0d1caef836d609
+ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/14/2018
 ---
 # <a name="deploy-to-azure-from-the-command-line-with-net-core"></a>Distribuire in Azure dalla riga di comando con .NET Core
 
-Questa esercitazione illustrerà in modo dettagliato la creazione e la distribuzione di un'applicazione di Microsoft Azure con .NET Core.  Al termine, sarà disponibile un'applicazione di tipo "elenco attività" basata sul Web, compilata in ASP.NET MVC Core, ospitata come app Web di Azure e con Azure CosmosDB per l'archiviazione dei dati.
+Questa esercitazione illustrerà in modo dettagliato la creazione e la distribuzione di un'applicazione di Microsoft Azure con .NET Core.  Al termine, sarà disponibile un'applicazione di tipo "elenco attività" basata sul Web, compilata in ASP.NET MVC Core, ospitata come app Web di Azure e con Azure Cosmos DB per l'archiviazione dei dati.
 
 ## <a name="prerequisites"></a>prerequisiti
 
@@ -29,9 +29,9 @@ Questa esercitazione illustrerà in modo dettagliato la creazione e la distribuz
 
 In [Azure Cloud Shell](/azure/cloud-shell/) sono preinstallati tutti i prerequisiti facoltativi per questa esercitazione.  È necessario installare i componenti facoltativi indicati solo se si vuole eseguire l'esercitazione in locale.  Per avviare rapidamente Cloud Shell, fare clic sul pulsante **Prova** in alto a destra nei blocchi di codice seguenti.
 
-## <a name="create-a-cosmosdb-account"></a>Creare un account CosmosDB
+## <a name="create-an-azure-cosmos-db-account"></a>Creare un account Azure Cosmos DB
 
-CosmosDB viene usato per l'archiviazione dei dati in questa esercitazione, quindi sarà necessario creare un account.  Eseguire questo script localmente o in Cloud Shell per creare un account per l'API DocumentDB di Azure CosmosDB.
+Azure Cosmos DB viene usato per l'archiviazione dei dati in questa esercitazione, quindi sarà necessario creare un account.  Eseguire questo script localmente o in Cloud Shell per creare un account per l'API SQL Azure Cosmos DB.
 
 ```azurecli-interactive
 # Create the DotNetAzureTutorial resource group
@@ -41,7 +41,7 @@ az group create --name DotNetAzureTutorial --location EastUS
 let randomNum=$RANDOM*$RANDOM
 cosmosdbname=dotnettutorial$randomNum
 
-# Create the CosmosDB account
+# Create the Azure Cosmos DB account
 az cosmosdb create --name $cosmosdbname --resource-group DotNetAzureTutorial
 
 # Retrieve the endpoint and key (you'll need these later)
@@ -52,7 +52,7 @@ cosmosAuthKey=$(az cosmosdb list-keys -n $cosmosdbname -g DotNetAzureTutorial --
 
 ## <a name="download-and-configure-the-application"></a>Scaricare e configurare l'applicazione
 
-L'applicazione da distribuire è una [semplice app di tipo "elenco attività"](https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart/) scritta in ASP.NET MVC Core con le librerie client di CosmosDB.  Verrà ora reso disponibile il codice per l'esercitazione, che verrà configurato con le informazioni specifiche per CosmosDB.
+L'applicazione da distribuire è una [semplice app di tipo "elenco attività"](https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart/) scritta in ASP.NET MVC Core con le librerie client di Azure Cosmos DB.  Verrà ora reso disponibile il codice per l'esercitazione, che verrà configurato con le informazioni specifiche per Azure Cosmos DB.
 
 ```azurecli-interactive
 # Get the code from GitHub
@@ -131,7 +131,7 @@ az webapp show -n $webappname -g DotNetAzureTutorial --query defaultHostName -o 
 
 ## <a name="clean-up"></a>Eseguire la pulizia
 
-Al termine del test dell'app e della verifica del codice e delle risorse, è possibile eliminare l'app Web e l'account CosmosDB tramite l'eliminazione del gruppo di risorse.
+Al termine del test dell'app e della verifica del codice e delle risorse, è possibile eliminare l'app Web e l'account Azure Cosmos DB tramite l'eliminazione del gruppo di risorse.
 
 ```azurecli-interactive
 az group delete -n DotNetAzureTutorial

@@ -12,23 +12,23 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: cosmos-db
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 4791e00c18d00fbed13bdf2c626a24fed2ff2863
-ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
+ms.openlocfilehash: fa9bc7497ac189f18ee0ba14d72d4cdb23a05f0b
+ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/14/2018
 ---
-# <a name="azure-cosmosdb-libraries-for-net"></a>Librerie di Azure Cosmos DB per .NET
+# <a name="azure-cosmos-db-libraries-for-net"></a>Librerie di Azure Cosmos DB per .NET
 
 ## <a name="overview"></a>Panoramica
 
-[Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction) è un archivio dati distribuito e scalabile che supporta vari tipi diversi di database.
+[Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction) è un archivio dati distribuito e scalabile che supporta vari tipi di database.
 
-[Introduzione a Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/create-documentdb-dotnet).
+[Introduzione a Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet).
 
 ## <a name="client-library"></a>Libreria client
 
-Usare la libreria client di Cosmos DB per .NET per accedere ai dati e archiviarli in un archivio dati Cosmos DB esistente.  Per automatizzare la creazione di un nuovo account CosmosDB, usare il portale di Azure, l'interfaccia della riga di comando o PowerShell.
+Usare la libreria client di Azure Cosmos DB per .NET per accedere ai dati e archiviarli in un archivio dati Azure Cosmos DB esistente.  Per automatizzare la creazione di un nuovo account Azure Cosmos DB, usare il portale di Azure, l'interfaccia della riga di comando o PowerShell.
 
 Installare il [pacchetto NuGet](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.Core) direttamente dalla [Console di Gestione pacchetti][PackageManager] di Visual Studio o tramite l'[interfaccia della riga di comando di .NET Core][DotNetCLI].
 
@@ -46,7 +46,7 @@ dotnet add package Microsoft.Azure.DocumentDB.Core
 
 ### <a name="code-example"></a>Esempio di codice
 
-Questo esempio mostra come connettersi a un database dell'API DocumentDB di Cosmos DB, eseguire la lettura di un documento da una raccolta e deserializzare il documento come un oggetto `Item`.   
+Questo esempio mostra come connettersi a un database dell'API SQL Azure Cosmos DB, leggere un documento da una raccolta e deserializzare il documento come oggetto `Item`.   
 
 ```csharp
 /* Include this "using" directive...
