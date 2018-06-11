@@ -15,6 +15,7 @@ ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 03/05/2018
+ms.locfileid: "29752793"
 ---
 # <a name="azure-ai-and-cognitive-service-tutorials-using-net"></a><span data-ttu-id="39cbd-103">Esercitazioni su Servizi cognitivi e intelligenza artificiale in Azure con .NET</span><span class="sxs-lookup"><span data-stu-id="39cbd-103">Azure AI and cognitive service tutorials using .NET</span></span>
 
