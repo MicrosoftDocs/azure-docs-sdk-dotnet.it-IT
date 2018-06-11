@@ -17,6 +17,7 @@ ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 03/02/2018
+ms.locfileid: "29728352"
 ---
 # <a name="azure-storage-apis-for-net"></a>API di archiviazione di Azure per .NET
 
