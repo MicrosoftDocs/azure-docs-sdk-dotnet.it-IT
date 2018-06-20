@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487264"
 ---
 # <a name="azure-batch-libraries-for-net"></a>Librerie di Azure Batch per .NET
 

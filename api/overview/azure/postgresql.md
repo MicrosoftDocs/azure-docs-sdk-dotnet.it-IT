@@ -17,6 +17,7 @@ ms.sourcegitcommit: 4dba7cd869bddff3dee7315d258522dc4879abce
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 11/23/2017
+ms.locfileid: "25550811"
 ---
 # <a name="azure-database-for-postgresql-libraries-for-net"></a>Librerie del Database di Azure per PostgreSQL per .NET
 

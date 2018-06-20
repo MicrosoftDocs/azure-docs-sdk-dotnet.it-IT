@@ -17,6 +17,7 @@ ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/26/2017
+ms.locfileid: "23566162"
 ---
 # <a name="azure-service-bus-relay-libraries-for-net"></a>Librerie di Inoltro del bus di servizio di Azure per .NET
 

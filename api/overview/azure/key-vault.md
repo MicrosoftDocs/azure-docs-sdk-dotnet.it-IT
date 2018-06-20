@@ -17,6 +17,7 @@ ms.sourcegitcommit: 4114b8821f20e02f4185fcea7549d716f29b9c90
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/24/2017
+ms.locfileid: "23489185"
 ---
 # <a name="azure-key-vault-libraries-for-net"></a>Librerie di Azure Key Vault per .NET
 

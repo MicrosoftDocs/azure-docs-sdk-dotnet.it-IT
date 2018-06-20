@@ -17,6 +17,7 @@ ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/26/2017
+ms.locfileid: "23566052"
 ---
 # <a name="azure-database-for-mysql-libraries-for-net"></a>Librerie del database di Azure per MySQL per .NET
 
