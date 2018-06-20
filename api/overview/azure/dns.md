@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487054"
 ---
 # <a name="azure-dns-libraries-for-net"></a><span data-ttu-id="b63c8-104">Librerie di DNS di Azure per .NET</span><span class="sxs-lookup"><span data-stu-id="b63c8-104">Azure DNS libraries for .NET</span></span>
 

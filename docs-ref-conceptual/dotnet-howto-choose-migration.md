@@ -1,6 +1,6 @@
 ---
-title: "Scegliere l'opzione di hosting di Azure più adatta"
-description: "Informazioni sul percorso di migrazione ad Azure più adatto per l'applicazione Web ASP.NET."
+title: Scegliere l'opzione di hosting di Azure più adatta
+description: Informazioni sul percorso di migrazione ad Azure più adatto per l'applicazione Web ASP.NET.
 keywords: Azure .NET, ASP.NET, servizio app, VM, macchina virtuale, app Web, eseguire la migrazione, migrazione
 author: CESARDELATORRE
 manager: wpickett
@@ -16,6 +16,7 @@ ms.sourcegitcommit: 3e904e6e4f04f1c92d729459434c85faff32e386
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 12/09/2017
+ms.locfileid: "26588464"
 ---
 # <a name="choose-the-right-azure-hosting-option"></a><span data-ttu-id="5ddc6-104">Scegliere l'opzione di hosting di Azure più adatta</span><span class="sxs-lookup"><span data-stu-id="5ddc6-104">Choose the right Azure hosting option</span></span>
 

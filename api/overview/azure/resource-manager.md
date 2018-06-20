@@ -17,6 +17,7 @@ ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/26/2017
+ms.locfileid: "23566372"
 ---
 # <a name="azure-resource-manager-libraries-for-net"></a><span data-ttu-id="765c5-104">Librerie di Azure Resource Manager per .NET</span><span class="sxs-lookup"><span data-stu-id="765c5-104">Azure Resource Manager libraries for .NET</span></span>
 

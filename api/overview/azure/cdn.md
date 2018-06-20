@@ -17,6 +17,7 @@ ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/26/2017
+ms.locfileid: "23566332"
 ---
 # <a name="azure-cdn-libraries-for-net"></a><span data-ttu-id="c293b-104">Librerie della rete CDN di Azure per .NET</span><span class="sxs-lookup"><span data-stu-id="c293b-104">Azure CDN libraries for .NET</span></span>
 

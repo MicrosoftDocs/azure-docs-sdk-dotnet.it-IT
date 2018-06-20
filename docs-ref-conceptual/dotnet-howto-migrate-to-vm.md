@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3e904e6e4f04f1c92d729459434c85faff32e386
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 12/09/2017
+ms.locfileid: "26588484"
 ---
 # <a name="migrate-an-aspnet-web-application-to-an-azure-virtual-machine"></a>Eseguire la migrazione di un'applicazione Web ASP.NET a una macchina virtuale di Azure
 

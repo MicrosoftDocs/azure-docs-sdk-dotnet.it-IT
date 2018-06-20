@@ -16,6 +16,7 @@ ms.sourcegitcommit: 7d88aef45df03d9a2be5b9ac5c9f1f146462427b
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/11/2018
+ms.locfileid: "34051961"
 ---
 # <a name="azure-c-code-samples-for-net"></a>Esempi di codice C# di Azure per .NET
 

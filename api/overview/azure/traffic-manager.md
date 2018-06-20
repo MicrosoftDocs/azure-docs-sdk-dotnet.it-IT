@@ -17,6 +17,7 @@ ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/26/2017
+ms.locfileid: "23566098"
 ---
 # <a name="azure-traffic-manager-libraries-for-net"></a><span data-ttu-id="2ec97-104">Librerie di Gestione traffico di Azure per .NET</span><span class="sxs-lookup"><span data-stu-id="2ec97-104">Azure Traffic Manager libraries for .NET</span></span>
 

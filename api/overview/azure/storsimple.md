@@ -17,6 +17,7 @@ ms.sourcegitcommit: 64c9e16e42894e8db8ed088487e55c5e0edd6861
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/31/2017
+ms.locfileid: "23639649"
 ---
 # <a name="azure-storsimple-libraries-for-net"></a><span data-ttu-id="036d3-104">Librerie di Azure StorSimple per .NET</span><span class="sxs-lookup"><span data-stu-id="036d3-104">Azure StorSimple libraries for .NET</span></span>
 

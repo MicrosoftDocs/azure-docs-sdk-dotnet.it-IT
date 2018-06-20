@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487524"
 ---
 # <a name="power-bi-embedded-libraries-for-net"></a><span data-ttu-id="ed940-104">Librerie di Power BI Embedded per .NET</span><span class="sxs-lookup"><span data-stu-id="ed940-104">Power BI Embedded libraries for .NET</span></span>
 

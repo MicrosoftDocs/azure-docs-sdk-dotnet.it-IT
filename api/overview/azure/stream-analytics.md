@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487134"
 ---
 # <a name="azure-stream-analytics-libraries-for-net"></a><span data-ttu-id="ae2a7-104">Librerie di Analisi di flusso di Azure per .NET</span><span class="sxs-lookup"><span data-stu-id="ae2a7-104">Azure Stream Analytics libraries for .NET</span></span>
 

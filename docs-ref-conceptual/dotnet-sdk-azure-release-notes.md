@@ -16,6 +16,7 @@ ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 04/14/2018
+ms.locfileid: "31005908"
 ---
 # <a name="release-notes"></a><span data-ttu-id="3d3a9-104">Note sulla versione</span><span class="sxs-lookup"><span data-stu-id="3d3a9-104">Release Notes</span></span> 
 

@@ -17,6 +17,7 @@ ms.sourcegitcommit: 4114b8821f20e02f4185fcea7549d716f29b9c90
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/24/2017
+ms.locfileid: "23489165"
 ---
 # <a name="azure-mobile-libraries-for-net"></a><span data-ttu-id="e5e33-104">Librerie di Azure per dispositivi mobili per .NET</span><span class="sxs-lookup"><span data-stu-id="e5e33-104">Azure Mobile libraries for .NET</span></span>
 

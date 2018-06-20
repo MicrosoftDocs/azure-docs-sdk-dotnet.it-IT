@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487484"
 ---
 # <a name="azure-iot-libraries-for-net"></a><span data-ttu-id="d23ca-104">Librerie di Azure IoT per .NET</span><span class="sxs-lookup"><span data-stu-id="d23ca-104">Azure IoT libraries for .NET</span></span>
 
