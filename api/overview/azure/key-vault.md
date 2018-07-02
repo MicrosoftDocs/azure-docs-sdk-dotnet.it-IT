@@ -7,23 +7,21 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: key-vault
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 3b8bcb9135794592f493db679e60fd40116d05e6
-ms.sourcegitcommit: 4114b8821f20e02f4185fcea7549d716f29b9c90
+ms.openlocfilehash: 037b80f60616a37665eddb0b7b212d15180700ba
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2017
-ms.locfileid: "23489185"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065451"
 ---
 # <a name="azure-key-vault-libraries-for-net"></a>Librerie di Azure Key Vault per .NET
 
 ## <a name="overview"></a>Panoramica
 
-L'insieme di credenziali chiave di Azure consente di proteggere le chiavi e i segreti di crittografia usati da servizi e applicazioni cloud.
+L'insieme di credenziali delle chiavi di Azure consente di proteggere le chiavi e i segreti di crittografia usati da servizi e applicazioni cloud.
 
 Per altre informazioni, vedere [Informazioni su Key Vault](/azure/key-vault/key-vault-whatis), quindi [Introduzione ad Azure Key Vault](/azure/key-vault/key-vault-get-started) o [Usare Key Vault da un'app Web](/azure/key-vault/key-vault-use-from-web-application).
 
