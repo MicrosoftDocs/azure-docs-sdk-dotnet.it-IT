@@ -1,26 +1,26 @@
 ---
-title: Esempi di codice C# di Azure per .NET
-description: Esempi di codice C# per .NET e Azure.
+title: Esempi di codice C# di Azure per .NET e .NET Core
+description: Esempi di codice C# per Azure con .NET, .NET Core, ASP.NET e ASP.NET Core.
 layout: LandingPage
 ms.topic: reference
 author: camsoper
 ms.author: casoper
 manager: wpickett
-ms.date: 04/12/2018
+ms.date: 07/17/2018
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 2952f2999ae53100d35d90f44bfcc6c9df696b00
-ms.sourcegitcommit: 7d88aef45df03d9a2be5b9ac5c9f1f146462427b
+ms.openlocfilehash: b4a67a2b3c942ea5282878a61ccabb7c1d3aa95c
+ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2018
-ms.locfileid: "34051961"
+ms.lasthandoff: 07/18/2018
+ms.locfileid: "39135679"
 ---
-# <a name="azure-c-code-samples-for-net"></a>Esempi di codice C# di Azure per .NET
+# <a name="azure-c-code-samples-for-net-and-net-core"></a>Esempi di codice C# di Azure per .NET e .NET Core
 
-Ecco i principali esempi ed esercitazioni consigliati per iniziare a usare Azure con C# e .NET.
+Ecco i principali esempi ed esercitazioni consigliati per iniziare a usare Azure con C# e .NET e .NET Core.
 
 <div id="main" class="v2">
     <div class="container">
@@ -36,8 +36,8 @@ Ecco i principali esempi ed esercitazioni consigliati per iniziare a usare Azure
                                     </div>
                                 </div>
                                 <div class="cardText">
-                                    <h3>Sito Web di base</h3>
-                                    <p>Informazioni su come creare un semplice sito Web ASP.NET Core che archivia informazioni in un back-end SQL.</p>
+                                    <h3>App Web di base</h3>
+                                    <p>Informazioni su come creare una semplice app Web ASP.NET Core nel servizio app di Azure che archivia le informazioni in un back-end SQL di Azure.</p>
                                 </div>
                             </div>
                         </a>
@@ -113,7 +113,7 @@ Ecco i principali esempi ed esercitazioni consigliati per iniziare a usare Azure
                                 </div>
                                 <div class="cardText">
                                     <h3>Analizzare le immagini con l'intelligenza artificiale</h3>
-                                    <p>Illustra come usare Servizi cognitivi per rilevare caratteristiche visive nelle immagini.</p>
+                                    <p>Illustra come usare Servizi cognitivi di Azure per rilevare caratteristiche visive nelle immagini.</p>
                                 </div>
                             </div>
                         </a>
@@ -132,13 +132,13 @@ Ecco i principali esempi ed esercitazioni consigliati per iniziare a usare Azure
                                 </div>
                                 <div class="cardText">
                                     <h3>Database cloud</h3>
-                                    <p>Informazioni su come eseguire operazioni di ricerca di base, creazione e modifica in un database cloud moderno con Cosmos DB.</p>
+                                    <p>Informazioni su come eseguire operazioni di ricerca, creazione e modifica di base in un database cloud moderno con Azure Cosmos DB.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div>
-            </li>             
+            </li>
         </ul>
     </div>
 </div>

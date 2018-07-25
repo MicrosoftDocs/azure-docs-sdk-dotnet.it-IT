@@ -1,32 +1,32 @@
 ### YamlMime:YamlDocument
+ms.openlocfilehash: 5f899128e033bb05fe867afdf3026dcb18d42f5f
+ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/18/2018
+ms.locfileid: "39135659"
 documentType: LandingData
-title: Azure per sviluppatori .NET
+title: Azure per sviluppatori .NET e .NET Core
 metadata:
   document_id: be4f4c73-c672-4490-8fca-ae087fba8b3b
-  title: Azure per sviluppatori .NET - Esercitazioni, informazioni di riferimento sulle API per C#
-  description: Per iniziare a sviluppare app con Azure, è possibile usare le risorse seguenti che offrono esercitazioni e strumenti utili per gli sviluppatori .NET.
+  title: Azure per sviluppatori .NET e .NET Core - Esercitazioni, informazioni di riferimento sulle API per C#
+  description: Per iniziare a sviluppare app con Azure, è possibile usare le risorse seguenti che offrono esercitazioni e strumenti utili per gli sviluppatori .NET, .NET Core, ASP.NET e ASP.NET Core.
   keywords: Azure, .NET, SDK, API, NuGet
   author: camsoper
   ms.author: casoper
-  manager: douge
-  ms.date: 07/13/2017
+  manager: wpickett
+  ms.date: 07/17/2018
   ms.topic: landing-page
   featureFlags:
   - clicktale
   ms.technology: azure
   ms.devlang: dotnet
   ms.service: multiple
-  ms.openlocfilehash: 0df719af621462048f432589f4235b220721c591
-  ms.sourcegitcommit: 4ec8ceb3a22c209c9c620dd0982cfbc08d21006c
-  ms.translationtype: HT
-  ms.contentlocale: it-IT
-  ms.lasthandoff: 06/05/2018
-  ms.locfileid: "34761379"
 sections:
 - items:
   - type: markdown
     text: >
-      Per iniziare a sviluppare app abilitate per il cloud con Azure, è possibile usare le risorse seguenti che offrono esercitazioni e strumenti utili per gli sviluppatori .NET.
+      Per iniziare a sviluppare app abilitate per il cloud con Azure, è possibile usare le risorse seguenti che offrono esercitazioni e strumenti utili per gli sviluppatori .NET e .NET Core.
 - items:
   - type: list
     style: cards
@@ -34,17 +34,18 @@ sections:
     columns: 2
     items:
     - href: https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet
-      html: <p>Distribuire la prima app .NET in Azure</p>
+      html: <p>Distribuire la prima app Web ASP.NET Core in Azure</p>
+      maintainContext: true
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_get-started.svg
       title: Attività iniziali
     - href: ./dotnet-samples?view=azure-dotnet
-      html: <p>Esempi di codice di Azure che usano .NET</p>
+      html: <p>Esempi di codice di Azure che usano .NET e .NET Core</p>
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_code-samples.svg
       title: Esempi di codice
     - href: https://docs.microsoft.com/dotnet/azure/dotnet-tools?view=azure-dotnet
-      html: <p>Strumenti per sviluppatori</p>
+      html: <p>Strumenti di sviluppo per .NET e .NET Core</p>
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_download-install.svg
       title: SDK e strumenti
@@ -56,7 +57,7 @@ sections:
 - title: Guide introduttive di 5 minuti
   items:
   - type: paragraph
-    text: Informazioni su come creare app .NET con i servizi di Azure e C#.
+    text: Informazioni su come creare app .NET e .NET Core con i servizi di Azure e C#.
   - type: list
     style: cards
     className: cardsM
@@ -64,7 +65,7 @@ sections:
     items:
     - image:
         src: https://docs.microsoft.com/en-us/azure/media/index/app-service-web.svg
-      title: Creare un'app ASP.NET con un database SQL di Azure
+      title: Creare un'app Web ASP.NET con un database SQL di Azure
       href: https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase
     - image:
         src: https://docs.microsoft.com/en-us/azure/media/index/azurefunctions.svg
@@ -76,7 +77,7 @@ sections:
       href: https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet
     - image:
         src: https://docs.microsoft.com/en-us/azure/media/index/cosmosdb.svg
-      title: Compilare un'app .NET con Azure Cosmos DB
+      title: Compilare un'app Web .NET con Azure Cosmos DB
       href: https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet
     - image:
         src: https://docs.microsoft.com/en-us/azure/media/index/fabric.svg
@@ -104,13 +105,13 @@ sections:
 - title: Esercitazioni dettagliate
   items:
   - type: paragraph
-    text: Informazioni su come usare gli strumenti e i servizi di Azure nelle app .NET.
+    text: Informazioni su come usare gli strumenti e i servizi di Azure nelle app .NET e .NET Core.
   - type: list
     style: unordered
     items:
-    - html: <a href="https://docs.microsoft.com/azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase">Creare un'app Web ASP.NET con il database SQL di Azure</a>
-    - html: <a href="https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-dotnet-application">Creare un'app Web ASP.NET con Azure Cosmos DB</a>
-    - html: <a href="https://docs.microsoft.com/azure/app-service-api/app-service-api-dotnet-get-started">Creare e distribuire un'API Web in Azure</a>
+    - html: <a href="https://docs.microsoft.com/azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase">Creare un'app Web ASP.NET con il servizio app di Azure e il database SQL di Azure</a>
+    - html: <a href="https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-dotnet-application">Creare un'app Web ASP.NET con il servizio app di Azure e Azure Cosmos DB</a>
+    - html: <a href="https://docs.microsoft.com/azure/app-service-api/app-service-api-dotnet-get-started">Creare e distribuire un'API Web nel servizio app di Azure</a>
     - html: <a href="https://docs.microsoft.com/azure/container-service/container-service-kubernetes-windows-walkthrough">Introduzione a Kubernetes e ai contenitori Windows</a>
     - html: <a href="https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet">Connettersi al database SQL di Azure ed eseguire query sul database</a>
     - html: <a href="https://docs.microsoft.com/azure/postgresql/connect-csharp">Connettersi al database di Azure per PostgreSQL ed eseguire query sul database</a>
