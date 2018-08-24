@@ -5,18 +5,18 @@ keywords: Azure, .NET, SDK, API, autenticazione, active directory, entità servi
 author: camsoper
 ms.author: casoper
 manager: wpickett
-ms.date: 10/19/2017
+ms.date: 08/22/2018
 ms.topic: reference
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 783b5ebf14abad992c18726df7232e4f3a68b72b
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: 019f0047fb141842eb1481ad9b835fa865a9a139
+ms.sourcegitcommit: b2a53a3aea9de6720bd975fb7fe4e722e9d182a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2018
-ms.locfileid: "29752773"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703044"
 ---
 # <a name="authenticate-with-the-azure-libraries-for-net"></a>Eseguire l'autenticazione con le librerie di Azure per .NET
 
@@ -103,9 +103,7 @@ var credentials = SdkContext.AzureCredentialsFactory
     AzureEnvironment.AzureGlobalCloud);
 ```
 
-- clientId: usare il valore *ApplicationId* dall'output dell'entità servizio.
-- clientSecret: usare il parametro *-Password* assegnato durante l'esecuzione di `New-AzureRmADServicePrincipal` (senza virgolette).
-- tenantId: usare il valore *TenantId* specificato durante l'esecuzione di `Login-AzureRmAccount`.
+Usare i valori di *clientId*, *clientSecret* e *tenantId* dell'output JSON della creazione dell'entità servizio.
 
 Creare quindi l'oggetto `Azure` del punto di ingresso per iniziare a usare l'API:
 

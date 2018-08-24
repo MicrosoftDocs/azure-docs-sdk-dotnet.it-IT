@@ -5,18 +5,18 @@ keywords: Azure, .NET, .NET Core, ASP.NET, ASP.NET Core SDK, API, autenticazione
 author: camsoper
 ms.author: casoper
 manager: wpickett
-ms.date: 07/17/2018
+ms.date: 08/22/2018
 ms.topic: reference
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: a8775993e71566b7659a8ae8ceb2c376ece14e45
-ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
+ms.openlocfilehash: ad894e47704fcccc83f7d02acb8e418b167993f9
+ms.sourcegitcommit: b2a53a3aea9de6720bd975fb7fe4e722e9d182a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39135779"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703054"
 ---
 # <a name="get-started-with-the-azure-net-and-net-core-apis"></a>Introduzione alle API di Azure .NET e .NET Core
 
@@ -25,7 +25,6 @@ Questa esercitazione illustra l'utilizzo di alcune [API di Azure per .NET](/dotn
 ## <a name="prerequisites"></a>Prerequisiti
 
 - Un account Azure. Se non è disponibile, [ottenere una versione di valutazione gratuita](https://azure.microsoft.com/free/)
-- [Azure PowerShell](/powershell/azure/install-azurerm-ps)
 
 ## <a name="set-up-authentication"></a>Configurare l'autenticazione
 
@@ -83,7 +82,7 @@ static void Main(string[] args)
     string password = "MY_PASSWORD";
     string rgName = "sampleResourceGroup";
     string windowsVmName = "sampleWindowsVM";
-    string publicIpDnsLabel = "samplePublicIP";
+    string publicIpDnsLabel = "samplePublicIP" + (new Random().Next(0,100000)).ToString();
 
     // Authenticate
     var credentials = SdkContext.AzureCredentialsFactory
@@ -117,10 +116,10 @@ static void Main(string[] args)
 
 Premere **F5** per eseguire l'esempio.
 
-Dopo alcuni minuti il programma verrà completato e verrà richiesto di premere INVIO. Dopo avere premuto INVIO, verificare la macchina virtuale nella sottoscrizione con PowerShell:
+Dopo alcuni minuti il programma verrà completato e verrà richiesto di premere INVIO. Dopo avere premuto INVIO, verificare la macchina virtuale nella sottoscrizione con Cloud Shell:
 
-```powershell
-Get-AzureRmVm -ResourceGroupName sampleResourceGroup
+```azurecli-interactive
+az vm list
 ```
 
 ## <a name="deploy-a-web-app-from-a-github-repo"></a>Distribuire un'app Web da un repository di GitHub
@@ -313,10 +312,10 @@ Dopo alcuni minuti il programma termina. Verificare che il BLOB sia stato carica
 > [!IMPORTANT]
 > Se non si esegue la pulizia delle risorse usate in questa esercitazione, si continueranno a ricevere addebiti per tali risorse.  Assicurarsi di eseguire questo passaggio.
 
-Eliminare tutte le risorse create immettendo il codice seguente in PowerShell:
+Eliminare tutte le risorse create immettendo il comando seguente in Cloud Shell:
 
-```powershell
-Remove-AzureRmResourceGroup -ResourceGroupName sampleResourceGroup
+```azurecli-interactive
+az group delete --name sampleResourceGroup
 ```
 
 ## <a name="explore-more-samples"></a>Esplorare altri esempi
