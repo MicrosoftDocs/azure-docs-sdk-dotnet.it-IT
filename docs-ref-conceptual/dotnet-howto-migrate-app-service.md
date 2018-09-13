@@ -11,12 +11,12 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: app-service
 ms.custom: devcenter
-ms.openlocfilehash: 643d758af8f90f22791d3b7deb18ae6233067ef0
-ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
+ms.openlocfilehash: af17a7dee8dd93aa50807b0b6b7eebadb673151b
+ms.sourcegitcommit: 6a1974bc7c7511aacac5b69daa296a59ab3f8000
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39135719"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44700953"
 ---
 # <a name="migrate-your-net-web-app-or-service-to-azure-app-service"></a>Eseguire la migrazione dell'app Web o del servizio .NET nel servizio app di Azure 
 
@@ -30,10 +30,10 @@ Informazioni introduttive [Pubblicare l'applicazione ASP.NET + SQL nel servizio 
 
 Verificare l'accesso alle risorse locali perché potrebbe essere necessario eseguirne la migrazione o apportarvi modifiche. Di seguito sono riportate le opzioni per mitigare l'accesso alle risorse locali:
 
-* Creare una VPN che connetta il servizio app alle risorse locali usando le [rete virtuali di Azure](https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet).
-* Esporre i servizi locali in modo sicuro nel cloud senza modifiche al firewall usando [Inoltro di Azure](https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-what-is-it).
+* Creare una VPN che connetta il servizio app alle risorse locali usando le [rete virtuali di Azure](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet).
+* Esporre i servizi locali in modo sicuro nel cloud senza modifiche al firewall usando [Inoltro di Azure](https://docs.microsoft.com/azure/service-bus-relay/relay-what-is-it).
 * Eseguire la migrazione delle dipendenze in Azure, ad esempio un [database SQL](https://go.microsoft.com/fwlink/?linkid=863217).
-* Usare le offerte di piattaforma come servizio (PaaS) nel cloud per ridurre le dipendenze. Ad esempio, invece di connettersi a un server di posta locale considerare la possibilità di usare [SendGrid](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email). 
+* Usare le offerte di piattaforma come servizio (PaaS) nel cloud per ridurre le dipendenze. Ad esempio, invece di connettersi a un server di posta locale considerare la possibilità di usare [SendGrid](https://docs.microsoft.com/azure/sendgrid-dotnet-how-to-send-email). 
 
 ### <a name="port-bindings"></a>Binding delle porte
 
@@ -64,7 +64,7 @@ Questa funzionalità non è supportata. È consigliabile copiare gli assembly ne
 Tutti gli elementi che normalmente vengono configurati tramite applicationHost.config nell'applicazione ora possono essere configurati tramite il portale di Azure. Ciò si applica al numero di bit del pool di applicazioni, all'abilitazione o alla disabilitazione dei WebSocket, alla versione della pipeline gestita, alla versione di .NET Framework (2.0/4.0) e così via. Per modificare le [impostazioni applicazione](https://docs.microsoft.com/azure/app-service/web-sites-configure), passare al [portale di Azure](https://portal.azure.com), aprire il pannello dell'app Web e quindi selezionare la scheda **Impostazioni applicazione**.
 
 #### <a name="iis5-compatibility-mode"></a>Modo di compatibilità IIS5
-La modalità di compatibilità IIS5 non è supportata. Nel servizio app di Azure, ogni app Web e tutte le applicazioni sottostanti vengono eseguite nello stesso processo di lavoro con un set specifico di [pool di applicazioni](http://technet.microsoft.com/en-us/library/cc735247(v=WS.10).aspx).
+La modalità di compatibilità IIS5 non è supportata. Nel servizio app di Azure, ogni app Web e tutte le applicazioni sottostanti vengono eseguite nello stesso processo di lavoro con un set specifico di [pool di applicazioni](http://technet.microsoft.com/library/cc735247(v=WS.10).aspx).
 
 #### <a name="iis7-schema-compliance"></a>Conformità dello schema IIS7+  
 Alcuni elementi e attributi non sono definiti nello schema IIS del servizio app di Azure. Se si riscontrano problemi, considerare la possibilità di usare [trasformazioni XDT](http://azure.microsoft.com/documentation/articles/web-sites-transform-extend/).
