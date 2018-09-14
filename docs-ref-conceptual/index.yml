@@ -1,10 +1,10 @@
 ### YamlMime:YamlDocument
-ms.openlocfilehash: f80b08f77cfb88b2e2148534553cc4c96cac6d76
-ms.sourcegitcommit: 0e64271404ddbb8f84f7e95691b29690de9e41bf
+ms.openlocfilehash: 0f2928212fca7c86defa37068e18e9ff96adb50a
+ms.sourcegitcommit: 319a55d604140fcc0b03a07b634ab9a3b22e657d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616383"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44703792"
 documentType: LandingData
 title: Azure per sviluppatori .NET e .NET Core
 metadata:
@@ -72,21 +72,21 @@ sections:
       title: Creare una funzione .NET senza server
       href: https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio
     - image:
-        src: https://docs.microsoft.com/en-us/azure/media/index/sqldatabase.svg
-      title: Connettere l'app .NET al database SQL di Azure
-      href: https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet
-    - image:
         src: https://docs.microsoft.com/en-us/azure/media/index/cosmosdb.svg
       title: Compilare un'app Web .NET con Azure Cosmos DB
       href: https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet
     - image:
-        src: https://docs.microsoft.com/en-us/azure/media/index/fabric.svg
-      title: Creare un'app di microservizio .NET con Service Fabric
-      href: https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet
+        src: https://docs.microsoft.com/en-us/azure/media/index/applicationinsights.svg
+      title: Monitorare l'applicazione ASP.NET con Application Insights
+      href: https://docs.microsoft.com/azure/application-insights/quick-monitor-portal
     - image:
-        src: https://docs.microsoft.com/azure/media/index/api_textanalytics.svg
-      title: Analizzare la lingua con C# e l'API Analisi del testo
-      href: https://docs.microsoft.com/azure/cognitive-services/text-analytics/quickstarts/csharp
+        src: https://docs.microsoft.com/en-us/azure/media/index/storage.svg
+      title: Archiviare e recuperare oggetti con Archiviazione di Azure
+      href: https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-dotnet
+    - image:
+        src: https://docs.microsoft.com/en-us/azure/media/index/sqldatabase.svg
+      title: Connettere l'app .NET al database SQL di Azure
+      href: https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet
 - title: Introduzione a .NET in Azure
   items:
   - type: markdown
@@ -118,9 +118,10 @@ sections:
     style: unordered
     items:
     - html: <a href="https://docs.microsoft.com/azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase">Creare un'app Web ASP.NET con il servizio app di Azure e il database SQL di Azure</a>
-    - html: <a href="https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-dotnet-application">Creare un'app Web ASP.NET con il servizio app di Azure e Azure Cosmos DB</a>
+    - html: <a href="https://docs.microsoft.com/azure/cosmos-db/sql-api-dotnet-application">Creare un'app Web ASP.NET con il servizio app di Azure e Azure Cosmos DB</a>
     - html: <a href="https://docs.microsoft.com/azure/app-service-api/app-service-api-dotnet-get-started">Creare e distribuire un'API Web nel servizio app di Azure</a>
     - html: <a href="https://docs.microsoft.com/azure/container-service/container-service-kubernetes-windows-walkthrough">Introduzione a Kubernetes e ai contenitori Windows</a>
     - html: <a href="https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet">Connettersi al database SQL di Azure ed eseguire query sul database</a>
     - html: <a href="https://docs.microsoft.com/azure/postgresql/connect-csharp">Connettersi al database di Azure per PostgreSQL ed eseguire query sul database</a>
     - html: <a href="https://docs.microsoft.com/azure/cosmos-db/sql-api-get-started">Introduzione all'API SQL Azure Cosmos DB in .NET</a>
+    - html: <a href="https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet">Creare un'app di microservizio .NET con Service Fabric</a>
