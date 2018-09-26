@@ -5,18 +5,18 @@ keywords: Azure .NET, ASP.NET, WCF, servizio app, app Web, eseguire la migrazion
 author: camsoper
 manager: wpickett
 ms.author: casoper
-ms.date: 07/16/2018
+ms.date: 08/11/2018
 ms.topic: article
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: app-service
 ms.custom: devcenter
-ms.openlocfilehash: af17a7dee8dd93aa50807b0b6b7eebadb673151b
-ms.sourcegitcommit: 6a1974bc7c7511aacac5b69daa296a59ab3f8000
+ms.openlocfilehash: 172ceb6956004dd560175d6662debdb4c898743d
+ms.sourcegitcommit: ed841c513dd332b14ca76a0c8a1893be13ec9f2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44700953"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "45567323"
 ---
 # <a name="migrate-your-net-web-app-or-service-to-azure-app-service"></a>Eseguire la migrazione dell'app Web o del servizio .NET nel servizio app di Azure 
 
@@ -108,7 +108,7 @@ Potrebbe essere necessario aggiornare le configurazioni DNS in base ai requisiti
 ## <a name="azure-app-service-with-windows-containers"></a>Servizio app di Azure i contenitori Windows
 Se non è possibile eseguire la migrazione dell'applicazione direttamente nel servizio app, considerare la possibilità di usare i contenitori Windows, che consentono l'uso di GAC, componenti COM, MSI, accesso completo alle API .NET FX, DirectX e altro ancora.
 
-## <a name="additional-reading"></a>Altre letture
+## <a name="additional-reading"></a>Informazioni aggiuntive
 
 * [Come determinare se l'app è qualificata per il servizio app](https://azure.microsoft.com/downloads/migration-assistant/)
 * [Passaggio del database al cloud](https://go.microsoft.com/fwlink/?linkid=863217)
@@ -117,4 +117,4 @@ Se non è possibile eseguire la migrazione dell'applicazione direttamente nel se
 ## <a name="next-steps"></a>Passaggi successivi
 
 > [!div class="nextstepaction"]
-> [Eseguire la migrazione di un'applicazione Web ASP.NET al servizio app di Azure](https://aka.ms/azure-webapp-migrate)
+> [Distribuire l'app da Visual Studio](https://docs.microsoft.com/visualstudio/deployment/quickstart-deploy-to-azure?view=vs-2017)
