@@ -1,42 +1,34 @@
 ---
 title: Esercitazioni per la creazione di app .NET Web e per dispositivi mobili in Azure
 description: Esercitazioni per la creazione e l'aggiunta di funzionalità alle app .NET Web e per dispositivi mobili tramite i servizi di Azure.
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: 1700bcf8a05f067e0f174bff87a7aa743cabc524
-ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
+ms.openlocfilehash: f80f21246e2dc6c44c80d6a820720aa73a3ffb4b
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2018
-ms.locfileid: "31005758"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190574"
 ---
-# <a name="tutorials-for-building-web-and-mobile-apps-with-net-in-azure"></a><span data-ttu-id="e214b-103">Esercitazioni per la creazione di app Web e per dispositivi mobili con .NET in Azure</span><span class="sxs-lookup"><span data-stu-id="e214b-103">Tutorials for building web and mobile apps with .NET in Azure</span></span>
+# <a name="tutorials-for-building-web-and-mobile-apps-with-net-in-azure"></a><span data-ttu-id="0393e-103">Esercitazioni per la creazione di app Web e per dispositivi mobili con .NET in Azure</span><span class="sxs-lookup"><span data-stu-id="0393e-103">Tutorials for building web and mobile apps with .NET in Azure</span></span>
 
-<span data-ttu-id="e214b-104">La tabella seguente include collegamenti a esercitazioni dettagliate per la creazione di app .NET Web e per dispositivi mobili in esecuzione in Azure.</span><span class="sxs-lookup"><span data-stu-id="e214b-104">The following table links to in-depth tutorials for building web and mobile .NET apps running on Azure.</span></span>
+<span data-ttu-id="0393e-104">La tabella seguente include collegamenti a esercitazioni dettagliate per la creazione di app .NET Web e per dispositivi mobili in esecuzione in Azure.</span><span class="sxs-lookup"><span data-stu-id="0393e-104">The following table links to in-depth tutorials for building web and mobile .NET apps running on Azure.</span></span>
 
-<span data-ttu-id="e214b-105">Per esempi del codice sorgente, vedere l'elenco di [esempi di codice per i servizi di Azure](https://azure.microsoft.com/resources/samples/?platform=dotnet).</span><span class="sxs-lookup"><span data-stu-id="e214b-105">For sample source code, see the list of [Azure service samples](https://azure.microsoft.com/resources/samples/?platform=dotnet).</span></span>
+<span data-ttu-id="0393e-105">Per esempi del codice sorgente, vedere l'elenco di [esempi di codice per i servizi di Azure](https://azure.microsoft.com/resources/samples/?platform=dotnet).</span><span class="sxs-lookup"><span data-stu-id="0393e-105">For sample source code, see the list of [Azure service samples](https://azure.microsoft.com/resources/samples/?platform=dotnet).</span></span>
 
 | | |
 |---|---|
-| <span data-ttu-id="e214b-106">**App Web**</span><span class="sxs-lookup"><span data-stu-id="e214b-106">**Web Apps**</span></span>||
-| <span data-ttu-id="e214b-107">[Creare un'app Web ASP.NET con il database SQL di Azure][1]</span><span class="sxs-lookup"><span data-stu-id="e214b-107">[Create an ASP.NET web app with Azure SQL Database][1]</span></span> | <span data-ttu-id="e214b-108">Creare una semplice applicazione Web che archivia dati nel database SQL di Azure.</span><span class="sxs-lookup"><span data-stu-id="e214b-108">Create a simple web application that stores data in Azure SQL Database.</span></span> | 
-| <span data-ttu-id="e214b-109">[Creare un'app Web ASP.NET con Azure Cosmos DB][2]</span><span class="sxs-lookup"><span data-stu-id="e214b-109">[Create an ASP.NET web app with Azure Cosmos DB][2]</span></span> | <span data-ttu-id="e214b-110">Creare un'applicazione Web con l'API SQL Azure Cosmos DB.</span><span class="sxs-lookup"><span data-stu-id="e214b-110">Create a web application using the Azure Cosmos DB SQL API.</span></span> | 
-| <span data-ttu-id="e214b-111">**App per le API**</span><span class="sxs-lookup"><span data-stu-id="e214b-111">**API Apps**</span></span>||
-| <span data-ttu-id="e214b-112">[Creare e distribuire un'API Web][3]</span><span class="sxs-lookup"><span data-stu-id="e214b-112">[Create and deploy a Web API][3]</span></span> | <span data-ttu-id="e214b-113">Creare e distribuire un'API Web .NET con Swagger.</span><span class="sxs-lookup"><span data-stu-id="e214b-113">Create and deploy a .NET Web API with Swagger.</span></span> | 
-| <span data-ttu-id="e214b-114">**Servizi multimediali**</span><span class="sxs-lookup"><span data-stu-id="e214b-114">**Media Services**</span></span> | |
-| <span data-ttu-id="e214b-115">[Sviluppo di applicazioni di Servizi multimediali con .NET][6]</span><span class="sxs-lookup"><span data-stu-id="e214b-115">[Media Services development with .NET][6]</span></span> | <span data-ttu-id="e214b-116">Informazioni su come iniziare a sviluppare applicazioni di Servizi multimediali con .NET.</span><span class="sxs-lookup"><span data-stu-id="e214b-116">Learn how to start developing Media Services applications using .NET.</span></span> |
-| <span data-ttu-id="e214b-117">[Connessione a un account Servizi multimediali][7]</span><span class="sxs-lookup"><span data-stu-id="e214b-117">[Connecting to a Media Services account][7]</span></span> | <span data-ttu-id="e214b-118">Ottenere una connessione a livello di codice a Servizi multimediali di Azure.</span><span class="sxs-lookup"><span data-stu-id="e214b-118">Obtain a programmatic connection to  Azure Media Services.</span></span> |
-| <span data-ttu-id="e214b-119">[Distribuire video on demand][4]</span><span class="sxs-lookup"><span data-stu-id="e214b-119">[Deliver video on demand][4]</span></span> | <span data-ttu-id="e214b-120">Creare un servizio di base per la distribuzione di contenuto video su richiesta in .NET.</span><span class="sxs-lookup"><span data-stu-id="e214b-120">Create a basic video-on-demand content delivery service in .NET.</span></span> | 
-| <span data-ttu-id="e214b-121">[Eseguire lo streaming live con codificatori locali ][8]</span><span class="sxs-lookup"><span data-stu-id="e214b-121">[Perform live streaming with on-premise encoders ][8]</span></span> | <span data-ttu-id="e214b-122">Creare un canale configurato per la distribuzione pass-through.</span><span class="sxs-lookup"><span data-stu-id="e214b-122">Create a channel that is configured for a pass-through delivery.</span></span> |
-| <span data-ttu-id="e214b-123">**Ricerca di Azure**</span><span class="sxs-lookup"><span data-stu-id="e214b-123">**Azure Search**</span></span>||
-| <span data-ttu-id="e214b-124">[Come usare Ricerca di Azure da un'applicazione .NET][5]</span><span class="sxs-lookup"><span data-stu-id="e214b-124">[How to use Azure Search from a .NET Application][5]</span></span> | <span data-ttu-id="e214b-125">Usare .NET SDK per implementare un'esperienza di ricerca completa nell'applicazione tramite Ricerca di Azure.</span><span class="sxs-lookup"><span data-stu-id="e214b-125">Use the .NET SDK to implement a rich search experience in your application using Azure Search.</span></span> | 
+| <span data-ttu-id="0393e-106">**App Web**</span><span class="sxs-lookup"><span data-stu-id="0393e-106">**Web Apps**</span></span>||
+| <span data-ttu-id="0393e-107">[Creare un'app Web ASP.NET con il database SQL di Azure][1]</span><span class="sxs-lookup"><span data-stu-id="0393e-107">[Create an ASP.NET web app with Azure SQL Database][1]</span></span> | <span data-ttu-id="0393e-108">Creare una semplice applicazione Web che archivia dati nel database SQL di Azure.</span><span class="sxs-lookup"><span data-stu-id="0393e-108">Create a simple web application that stores data in Azure SQL Database.</span></span> | 
+| <span data-ttu-id="0393e-109">[Creare un'app Web ASP.NET con Azure Cosmos DB][2]</span><span class="sxs-lookup"><span data-stu-id="0393e-109">[Create an ASP.NET web app with Azure Cosmos DB][2]</span></span> | <span data-ttu-id="0393e-110">Creare un'applicazione Web con l'API SQL Azure Cosmos DB.</span><span class="sxs-lookup"><span data-stu-id="0393e-110">Create a web application using the Azure Cosmos DB SQL API.</span></span> | 
+| <span data-ttu-id="0393e-111">**App per le API**</span><span class="sxs-lookup"><span data-stu-id="0393e-111">**API Apps**</span></span>||
+| <span data-ttu-id="0393e-112">[Creare e distribuire un'API Web][3]</span><span class="sxs-lookup"><span data-stu-id="0393e-112">[Create and deploy a Web API][3]</span></span> | <span data-ttu-id="0393e-113">Creare e distribuire un'API Web .NET con Swagger.</span><span class="sxs-lookup"><span data-stu-id="0393e-113">Create and deploy a .NET Web API with Swagger.</span></span> | 
+| <span data-ttu-id="0393e-114">**Servizi multimediali**</span><span class="sxs-lookup"><span data-stu-id="0393e-114">**Media Services**</span></span> | |
+| <span data-ttu-id="0393e-115">[Sviluppo di applicazioni di Servizi multimediali con .NET][6]</span><span class="sxs-lookup"><span data-stu-id="0393e-115">[Media Services development with .NET][6]</span></span> | <span data-ttu-id="0393e-116">Informazioni su come iniziare a sviluppare applicazioni di Servizi multimediali con .NET.</span><span class="sxs-lookup"><span data-stu-id="0393e-116">Learn how to start developing Media Services applications using .NET.</span></span> |
+| <span data-ttu-id="0393e-117">[Connessione a un account Servizi multimediali][7]</span><span class="sxs-lookup"><span data-stu-id="0393e-117">[Connecting to a Media Services account][7]</span></span> | <span data-ttu-id="0393e-118">Ottenere una connessione a livello di codice a Servizi multimediali di Azure.</span><span class="sxs-lookup"><span data-stu-id="0393e-118">Obtain a programmatic connection to  Azure Media Services.</span></span> |
+| <span data-ttu-id="0393e-119">[Distribuire video on demand][4]</span><span class="sxs-lookup"><span data-stu-id="0393e-119">[Deliver video on demand][4]</span></span> | <span data-ttu-id="0393e-120">Creare un servizio di base per la distribuzione di contenuto video su richiesta in .NET.</span><span class="sxs-lookup"><span data-stu-id="0393e-120">Create a basic video-on-demand content delivery service in .NET.</span></span> | 
+| <span data-ttu-id="0393e-121">[Eseguire lo streaming live con codificatori locali ][8]</span><span class="sxs-lookup"><span data-stu-id="0393e-121">[Perform live streaming with on-premise encoders ][8]</span></span> | <span data-ttu-id="0393e-122">Creare un canale configurato per la distribuzione pass-through.</span><span class="sxs-lookup"><span data-stu-id="0393e-122">Create a channel that is configured for a pass-through delivery.</span></span> |
+| <span data-ttu-id="0393e-123">**Ricerca di Azure**</span><span class="sxs-lookup"><span data-stu-id="0393e-123">**Azure Search**</span></span>||
+| <span data-ttu-id="0393e-124">[Come usare Ricerca di Azure da un'applicazione .NET][5]</span><span class="sxs-lookup"><span data-stu-id="0393e-124">[How to use Azure Search from a .NET Application][5]</span></span> | <span data-ttu-id="0393e-125">Usare .NET SDK per implementare un'esperienza di ricerca completa nell'applicazione tramite Ricerca di Azure.</span><span class="sxs-lookup"><span data-stu-id="0393e-125">Use the .NET SDK to implement a rich search experience in your application using Azure Search.</span></span> | 
 
 
 
