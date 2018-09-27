@@ -1,22 +1,13 @@
 ---
 title: Strumenti di Azure per Visual Studio 2015
 description: È possibile ottenere gli strumenti per iniziare a usare le librerie .NET di Azure da Visual Studio 2015.
-keywords: Azure .NET, SDK, VS2015, Visual Studio 2015
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: 5046781a16b5b330b95c4ad36e8a8187126fef4e
-ms.sourcegitcommit: 1c2e1fd031ad012d6888fcde3cd325f7e8e49e0f
+ms.openlocfilehash: b574841d17ba60e8ab52a4c06831f0b1cc8cc8aa
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/09/2018
-ms.locfileid: "29752813"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190404"
 ---
 # <a name="azure-tools-for-visual-studio-2015"></a>Strumenti di Azure per Visual Studio 2015
 
@@ -40,7 +31,7 @@ Il modo più semplice e rapido per installare **Azure SDK per Visual Studio 2015
 
 2. L'elenco visualizzato includerà alcuni strumenti di Azure, ad esempio gli **Strumenti del servizio app di Microsoft Azure**, **Servizio connesso di Archiviazione di Microsoft Azure** e **Strumenti di Service Fabric**.
 
-    ![Estensioni e aggiornamenti](media\dotnet-sdk-vs2015-install\ext-tools.png)
+    ![Estensioni e aggiornamenti](media/dotnet-sdk-vs2015-install/ext-tools.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 

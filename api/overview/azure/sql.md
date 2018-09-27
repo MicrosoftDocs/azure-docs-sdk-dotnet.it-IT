@@ -1,21 +1,15 @@
 ---
 title: API del database SQL di Azure per .NET
 description: Informazioni di riferimento sulle librerie di archiviazione del database SQL di Azure per .NET
-keywords: Azure, .NET, SDK, API, SQL, database SQL
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: sql-database
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 8096e66be1263bc50648ef5b9b16f3fc2bd08ac8
-ms.sourcegitcommit: 512e031ead61a578ac96835c8ea01829842740bf
+ms.openlocfilehash: e4c1620ddf488952c6720b9bedf2521c6512b9a3
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39116677"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190634"
 ---
 # <a name="azure-sql-database-apis-for-net"></a>API del database SQL di Azure per .NET
 

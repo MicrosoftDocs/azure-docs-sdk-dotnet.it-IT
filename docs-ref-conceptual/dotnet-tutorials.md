@@ -1,21 +1,13 @@
 ---
 title: Esercitazioni per app .NET e .NET Core in Azure
 description: Esercitazioni per la creazione e l'aggiunta di funzionalità alle app Web e per dispositivi mobili usando i servizi di Azure e .NET, .NET Core, ASP.NET e ASP.NET Core.
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 07/17/2018
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: 2255824a778a9a1ca9e3a3d26d7e730e345393db
-ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
+ms.openlocfilehash: 86e3d3499bd459a0c2f85554a00e5e05223a8eaf
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39135739"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47189544"
 ---
 # <a name="tutorials-for-building-net-and-net-core-apps-in-azure"></a>Esercitazioni per la creazione di app .NET e .NET Core in Azure
 

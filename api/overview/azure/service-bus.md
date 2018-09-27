@@ -1,21 +1,15 @@
 ---
 title: Librerie del bus di servizio di Azure per .NET
 description: Informazioni di riferimento sulle librerie del bus di servizio di Azure per .NET
-keywords: Azure, .NET, SDK, API, bus di servizio
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: service-bus
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 5ebd659121019c74ad607dc2a553f7e305a34021
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 506be9a669a2418f2437271d128a963e351442e7
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065471"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190874"
 ---
 # <a name="azure-service-bus-libraries-for-net"></a>Librerie del bus di servizio di Azure per .NET
 

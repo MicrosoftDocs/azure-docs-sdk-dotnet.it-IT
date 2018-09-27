@@ -1,3 +1,14 @@
+---
+ms.service: multiple
+ms.date: 9/20/2018
+ms.topic: include
+ms.openlocfilehash: 7f7c24957d2bc0574fc0b1bf2a8ae8fe8b4dfc64
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190714"
+---
 Creare un file di testo denominato `azureauth.json`. Incollare l'output JSON ottenuto con la creazione dell'entità servizio.
 
 Salvare questo file nel sistema in una posizione sicura e leggibile dal codice. Usare PowerShell per impostare una variabile di ambiente denominata `AZURE_AUTH_LOCATION` con il percorso completo del file, ad esempio:

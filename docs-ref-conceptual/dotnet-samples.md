@@ -2,21 +2,13 @@
 title: Esempi di codice C# di Azure per .NET e .NET Core
 description: Esempi di codice C# per Azure con .NET, .NET Core, ASP.NET e ASP.NET Core.
 layout: LandingPage
-ms.topic: reference
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 07/17/2018
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: b4a67a2b3c942ea5282878a61ccabb7c1d3aa95c
-ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
+ms.openlocfilehash: 0e9834568a63a61ed9d0326d00d71c59a3322170
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39135679"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190544"
 ---
 # <a name="azure-c-code-samples-for-net-and-net-core"></a>Esempi di codice C# di Azure per .NET e .NET Core
 

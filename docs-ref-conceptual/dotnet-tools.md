@@ -1,22 +1,14 @@
 ---
 title: Azure per sviluppatori .NET e .NET Core di Azure
 description: Ottenere gli strumenti per iniziare a usare le librerie .NET di Azure da un ambiente Windows, Linux e Mac.
-keywords: Azure .NET, SDK, informazioni di riferimento sulle API .NET di Azure, libreria di classi .NET di Azure
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 08/11/2018
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter, vs-azure
-ms.openlocfilehash: e67cd101842b8b9e36bbe1867818dcb5467c35ea
-ms.sourcegitcommit: ed841c513dd332b14ca76a0c8a1893be13ec9f2c
+ms.custom: azure-dotnet-devcenter, azure-dotnet-devcenter-authored, azure-dotnet-devcenter-conceptual, vs-azure
+ms.openlocfilehash: b39d40aa47319abc063fc5c5608700b579a22396
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "45567333"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190334"
 ---
 # <a name="tools-for-net-and-net-core-azure-developers"></a>Azure per sviluppatori .NET e .NET Core di Azure
 
@@ -27,7 +19,7 @@ Indipendentemente dal sistema operativo, sono disponibili molti strumenti utili 
 <table>
   <tr>
     <td width="50">
-        <img src="https://docs.microsoft.com/en-us/media/logos/logo_vs-ide.svg" width="50" height="50"></img>
+        <img src="https://docs.microsoft.com/media/logos/logo_vs-ide.svg" width="50" height="50"></img>
     </td>
     <td>
         Visual Studio 2017 include il supporto predefinito per lo sviluppo in Azure.
@@ -58,7 +50,7 @@ Iniziare [distribuendo la prima app Web ASP.NET Core nel servizio app di Azure](
 <table>
   <tr>
     <td width="50">
-        <img src="https://docs.microsoft.com/en-us/media/logos/logo_vs-mac.svg" width="50" height="50"></img>
+        <img src="https://docs.microsoft.com/media/logos/logo_vs-mac.svg" width="50" height="50"></img>
     </td>
     <td>
         Visual Studio per Mac include tutti gli elementi necessari per lo sviluppo in Azure.
@@ -80,7 +72,7 @@ Durante l'installazione, gli strumenti di Azure vengono abilitati per impostazio
 <table>
   <tr>
     <td width="50">
-        <img src="https://docs.microsoft.com/en-us/visualstudio/products/images/vs-code.svg" width="50" height="50"></img>
+        <img src="https://docs.microsoft.com/media/logos/logo_vs-code.svg" width="50" height="50"></img>
     </td>
     <td>
         Visual Studio Code include tutti gli elementi necessari per lo sviluppo di Azure in Linux.

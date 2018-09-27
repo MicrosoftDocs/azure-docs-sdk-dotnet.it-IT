@@ -1,21 +1,15 @@
 ---
 title: Librerie di Inoltro del bus di servizio di Azure per .NET
 description: Informazioni di riferimento sulle librerie di Inoltro del bus di servizio di Azure per .NET
-keywords: Azure, .NET, SDK, API, Inoltro del bus di servizio
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: service-bus
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: e0dd9c9b0a187fe6ca81d764e60afd00cbaab654
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 75c481ab23e461c5194a9eeb0ca668af98f4d2d7
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065951"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47189984"
 ---
 # <a name="azure-service-bus-relay-libraries-for-net"></a>Librerie di Inoltro del bus di servizio di Azure per .NET
 

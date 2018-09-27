@@ -1,21 +1,15 @@
 ---
 title: Librerie di Azure Service Fabric per .NET
 description: Informazioni di riferimento sulle librerie di Azure Service Fabric per .NET
-keywords: Azure, .NET, SDK, API, Service Fabric
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: service-fabric
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: e1b4d08c93ad44973359f46501aba198047b10e8
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 064f95a4eae3182c4ac5b31779a5d22b592a75b2
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065941"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190764"
 ---
 # <a name="azure-service-fabric-libraries-for-net"></a>Librerie di Azure Service Fabric per .NET
 
