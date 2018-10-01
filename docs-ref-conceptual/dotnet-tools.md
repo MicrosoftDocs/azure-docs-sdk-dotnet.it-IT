@@ -36,15 +36,15 @@ Se si usa ancora Visual Studio 2015,  [fare clic qui per visualizzare le istruzi
 > [!div class="nextstepaction"]
 > [Download di Visual Studio 2017](https://www.visualstudio.com/downloads/)
 
-### <a name="step-2-install-the-two-azure-workloads"></a>Passaggio 2: Installare i due carichi di lavoro di Azure
+### <a name="step-2-install-the-two-azure-workloads"></a>Passaggio 2: Installare i due componenti per Azure
 
-Dopo l'avvio del programma di installazione di Visual Studio 2017, assicurarsi che i carichi di lavoro Azure e ASP.NET per lo sviluppo Web siano selezionati.
+Dopo l'avvio del programma di installazione di Visual Studio 2017, assicurarsi che i componenti Azure e ASP.NET per lo sviluppo Web siano selezionati.
 
 ![Programma di installazione di Visual Studio](media/dotnet-tools/azure-workloads.png)
 
 ### <a name="step-3-develop-with-net-on-azure"></a>Passaggio 3: Sviluppare con .NET in Azure
 
-Iniziare [distribuendo la prima app Web ASP.NET Core nel servizio app di Azure](https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet).
+Proseguire con [distribuire la prima app Web ASP.NET Core con servizio app di Azure](https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet).
 
 ## <a name="macostabmacos"></a>[macOS](#tab/macos)
 <table>
