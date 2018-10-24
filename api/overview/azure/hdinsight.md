@@ -3,31 +3,31 @@ title: Azure HDInsight .NET SDK
 description: Informazioni di riferimento per Azure HDInsight .NET SDK
 ms.date: 9/19/2018
 ms.topic: reference
-ms.service: hd-insight
-ms.openlocfilehash: d25bdb1c9086cd93190b97f519654f2c193b9dc3
-ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.service: hdinsight
+ms.openlocfilehash: 35e2c8c07fb2b86b2d0ae9be4f855e369c1aa86d
+ms.sourcegitcommit: 1cf4550df8ed3236d838f561f6177d14d89b5e44
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47190684"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49348203"
 ---
-# <a name="azure-hdinsight-net-sdk"></a><span data-ttu-id="5b3bf-103">Azure HDInsight .NET SDK</span><span class="sxs-lookup"><span data-stu-id="5b3bf-103">Azure HDInsight .NET SDK</span></span>
+# <a name="azure-hdinsight-net-sdk"></a><span data-ttu-id="f0fdc-103">Azure HDInsight .NET SDK</span><span class="sxs-lookup"><span data-stu-id="f0fdc-103">Azure HDInsight .NET SDK</span></span>
 
-## <a name="azure-hdinsight-libraries-for-net-2x"></a><span data-ttu-id="5b3bf-104">Librerie di Azure HDInsight per .NET 2.X</span><span class="sxs-lookup"><span data-stu-id="5b3bf-104">Azure HDInsight libraries for .NET 2.X</span></span>
+## <a name="azure-hdinsight-libraries-for-net-2x"></a><span data-ttu-id="f0fdc-104">Librerie di Azure HDInsight per .NET 2.X</span><span class="sxs-lookup"><span data-stu-id="f0fdc-104">Azure HDInsight libraries for .NET 2.X</span></span>
 
-## <a name="overview"></a><span data-ttu-id="5b3bf-105">Panoramica</span><span class="sxs-lookup"><span data-stu-id="5b3bf-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="f0fdc-105">Panoramica</span><span class="sxs-lookup"><span data-stu-id="f0fdc-105">Overview</span></span>
 
-<span data-ttu-id="5b3bf-106">HDInsight .NET SDK fornisce le classi necessarie per la creazione, la configurazione, l'invio e il monitoraggio dei processi Hadoop gestiti da un servizio HDInsight di Azure.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-106">The HDInsight Service .NET SDK provides classes that relate to the creation, configuration, submission, and monitoring of Hadoop jobs managed by an Azure HDInsight Service.</span></span> <span data-ttu-id="5b3bf-107">Fornisce inoltre le classi per gestire le sottoscrizioni di Azure tramite il servizio HDInsight e per configurare cluster, account di archiviazione e altri asset associati al cluster HDInsight gestiti da una sottoscrizione di Azure.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-107">In addition, it provides classes to manage Azure subscriptions using the HDInsight Service and to configure the clusters, storage accounts, and other assets associated with the HDInsight clusters that are managed by an Azure subscription.</span></span>
+<span data-ttu-id="f0fdc-106">HDInsight .NET SDK fornisce le classi necessarie per la creazione, la configurazione, l'invio e il monitoraggio dei processi Hadoop gestiti da un servizio HDInsight di Azure.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-106">The HDInsight Service .NET SDK provides classes that relate to the creation, configuration, submission, and monitoring of Hadoop jobs managed by an Azure HDInsight Service.</span></span> <span data-ttu-id="f0fdc-107">Fornisce inoltre le classi per gestire le sottoscrizioni di Azure tramite il servizio HDInsight e per configurare cluster, account di archiviazione e altri asset associati al cluster HDInsight gestiti da una sottoscrizione di Azure.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-107">In addition, it provides classes to manage Azure subscriptions using the HDInsight Service and to configure the clusters, storage accounts, and other assets associated with the HDInsight clusters that are managed by an Azure subscription.</span></span>
 
-## <a name="management-libraries"></a><span data-ttu-id="5b3bf-108">Librerie di gestione</span><span class="sxs-lookup"><span data-stu-id="5b3bf-108">Management libraries</span></span>
+## <a name="management-libraries"></a><span data-ttu-id="f0fdc-108">Librerie di gestione</span><span class="sxs-lookup"><span data-stu-id="f0fdc-108">Management libraries</span></span>
 
-### <a name="jobs"></a><span data-ttu-id="5b3bf-109">Processi</span><span class="sxs-lookup"><span data-stu-id="5b3bf-109">Jobs</span></span>
+### <a name="jobs"></a><span data-ttu-id="f0fdc-109">Processi</span><span class="sxs-lookup"><span data-stu-id="f0fdc-109">Jobs</span></span>
 
-<span data-ttu-id="5b3bf-110">Usare Azure HDInsight Client SDK per creare, gestire e monitorare i processi in un cluster Hadoop.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-110">Use the Azure HDInsight client SDK to create, manage, and monitor jobs on a Hadoop cluster.</span></span> 
+<span data-ttu-id="f0fdc-110">Usare Azure HDInsight Client SDK per creare, gestire e monitorare i processi in un cluster Hadoop.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-110">Use the Azure HDInsight client SDK to create, manage, and monitor jobs on a Hadoop cluster.</span></span> 
 
-<span data-ttu-id="5b3bf-111">Installare il [pacchetto NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.HDInsight.Job) direttamente dalla [Console di Gestione pacchetti][PackageManager] di Visual Studio o tramite l'[interfaccia della riga di comando di .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="5b3bf-111">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.HDInsight.Job) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="f0fdc-111">Installare il [pacchetto NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.HDInsight.Job) direttamente dalla [Console di Gestione pacchetti][PackageManager] di Visual Studio o tramite l'[interfaccia della riga di comando di .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="f0fdc-111">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.HDInsight.Job) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="5b3bf-112">Visual Studio - Gestione pacchetti</span><span class="sxs-lookup"><span data-stu-id="5b3bf-112">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="f0fdc-112">Visual Studio - Gestione pacchetti</span><span class="sxs-lookup"><span data-stu-id="f0fdc-112">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.Management.HDInsight.Job
@@ -37,9 +37,9 @@ Install-Package Microsoft.Azure.Management.HDInsight.Job
 dotnet add package Microsoft.Azure.Management.HDInsight.Job
 ```
 
-#### <a name="code-example"></a><span data-ttu-id="5b3bf-113">Esempio di codice</span><span class="sxs-lookup"><span data-stu-id="5b3bf-113">Code Example</span></span>
+#### <a name="code-example"></a><span data-ttu-id="f0fdc-113">Esempio di codice</span><span class="sxs-lookup"><span data-stu-id="f0fdc-113">Code Example</span></span>
 
-<span data-ttu-id="5b3bf-114">Questo esempio mostra l'esecuzione di un processo Hive in un cluster Hadoop.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-114">This example runs a Hive job in a Hadoop cluster.</span></span>
+<span data-ttu-id="f0fdc-114">Questo esempio mostra l'esecuzione di un processo Hive in un cluster Hadoop.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-114">This example runs a Hive job in a Hadoop cluster.</span></span>
 
 ```csharp
 HDInsightJobManagementClient managementClient = new HDInsightJobManagementClient(clusterUri, credentials);
@@ -59,13 +59,13 @@ HiveJobSubmissionParameters parameters = new HiveJobSubmissionParameters
 JobSubmissionResponse jobResponse = managementClient.JobManagement.SubmitHiveJob(parameters);
 ```
 
-### <a name="hdinsight"></a><span data-ttu-id="5b3bf-115">HDInsight</span><span class="sxs-lookup"><span data-stu-id="5b3bf-115">HDInsight</span></span>
+### <a name="hdinsight"></a><span data-ttu-id="f0fdc-115">HDInsight</span><span class="sxs-lookup"><span data-stu-id="f0fdc-115">HDInsight</span></span>
 
-<span data-ttu-id="5b3bf-116">Usare Azure HDInsight Management SDK per creare, gestire, avviare, arrestare e ridimensionare i cluster Hadoop.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-116">Use the Azure HDInsight management SDK to create, manage, start, stop, and scale Hadoop clusters.</span></span>
+<span data-ttu-id="f0fdc-116">Usare Azure HDInsight Management SDK per creare, gestire, avviare, arrestare e ridimensionare i cluster Hadoop.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-116">Use the Azure HDInsight management SDK to create, manage, start, stop, and scale Hadoop clusters.</span></span>
 
-<span data-ttu-id="5b3bf-117">Installare il [pacchetto NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.HDInsight) direttamente dalla [Console di Gestione pacchetti][PackageManager] di Visual Studio o tramite l'[interfaccia della riga di comando di .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="5b3bf-117">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.HDInsight) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="f0fdc-117">Installare il [pacchetto NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.HDInsight) direttamente dalla [Console di Gestione pacchetti][PackageManager] di Visual Studio o tramite l'[interfaccia della riga di comando di .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="f0fdc-117">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.HDInsight) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="5b3bf-118">Visual Studio - Gestione pacchetti</span><span class="sxs-lookup"><span data-stu-id="5b3bf-118">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="f0fdc-118">Visual Studio - Gestione pacchetti</span><span class="sxs-lookup"><span data-stu-id="f0fdc-118">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.Management.HDInsight
@@ -75,9 +75,9 @@ Install-Package Microsoft.Azure.Management.HDInsight
 dotnet add package Microsoft.Azure.Management.HDInsight
 ```
 
-#### <a name="code-example"></a><span data-ttu-id="5b3bf-119">Esempio di codice</span><span class="sxs-lookup"><span data-stu-id="5b3bf-119">Code Example</span></span>
+#### <a name="code-example"></a><span data-ttu-id="f0fdc-119">Esempio di codice</span><span class="sxs-lookup"><span data-stu-id="f0fdc-119">Code Example</span></span>
 
-<span data-ttu-id="5b3bf-120">Questo esempio mostra la creazione di un cluster Hadoop Linux a due nodi in HDInsight con una risorsa di archiviazione BLOB di Azure esistente.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-120">This example creates an HDInsight two node Linux Hadoop cluster with an existing Azure Blob Storage.</span></span>
+<span data-ttu-id="f0fdc-120">Questo esempio mostra la creazione di un cluster Hadoop Linux a due nodi in HDInsight con una risorsa di archiviazione BLOB di Azure esistente.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-120">This example creates an HDInsight two node Linux Hadoop cluster with an existing Azure Blob Storage.</span></span>
 
 ```csharp
 HDInsightManagementClient managementClient = new HDInsightManagementClient(authToken);
@@ -102,38 +102,38 @@ managementClient.Clusters.Create("<ExistingResourceGroupName>", "<NewClusterName
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="5b3bf-121">Esplorare le API di gestione</span><span class="sxs-lookup"><span data-stu-id="5b3bf-121">Explore the management APIs</span></span>](/dotnet/api/overview/azure/hdinsights/management)
+> [<span data-ttu-id="f0fdc-121">Esplorare le API di gestione</span><span class="sxs-lookup"><span data-stu-id="f0fdc-121">Explore the management APIs</span></span>](/dotnet/api/overview/azure/hdinsights/management)
 
 
-## <a name="samples"></a><span data-ttu-id="5b3bf-122">Esempi</span><span class="sxs-lookup"><span data-stu-id="5b3bf-122">Samples</span></span>
+## <a name="samples"></a><span data-ttu-id="f0fdc-122">Esempi</span><span class="sxs-lookup"><span data-stu-id="f0fdc-122">Samples</span></span>
 
-- [<span data-ttu-id="5b3bf-123">Creazione del cluster</span><span class="sxs-lookup"><span data-stu-id="5b3bf-123">Cluster creation</span></span>](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-create-linux-clusters-dotnet-sdk)
-- [<span data-ttu-id="5b3bf-124">Gestione dei cluster</span><span class="sxs-lookup"><span data-stu-id="5b3bf-124">Cluster management</span></span>](https://docs.microsoft.com/azure/hdinsight/hdinsight-administer-use-dotnet-sdk)
-- [<span data-ttu-id="5b3bf-125">Eseguire processi Hive</span><span class="sxs-lookup"><span data-stu-id="5b3bf-125">Run Hive jobs</span></span>](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-hive-dotnet-sdk)
-- [<span data-ttu-id="5b3bf-126">Eseguire processi Pig</span><span class="sxs-lookup"><span data-stu-id="5b3bf-126">Run Pig jobs</span></span>](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-pig-dotnet-sdk)
-- [<span data-ttu-id="5b3bf-127">Altri processi</span><span class="sxs-lookup"><span data-stu-id="5b3bf-127">More jobs</span></span>](https://docs.microsoft.com/azure/hdinsight/hdinsight-submit-hadoop-jobs-programmatically)
+- [<span data-ttu-id="f0fdc-123">Creazione del cluster</span><span class="sxs-lookup"><span data-stu-id="f0fdc-123">Cluster creation</span></span>](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-create-linux-clusters-dotnet-sdk)
+- [<span data-ttu-id="f0fdc-124">Gestione dei cluster</span><span class="sxs-lookup"><span data-stu-id="f0fdc-124">Cluster management</span></span>](https://docs.microsoft.com/azure/hdinsight/hdinsight-administer-use-dotnet-sdk)
+- [<span data-ttu-id="f0fdc-125">Eseguire processi Hive</span><span class="sxs-lookup"><span data-stu-id="f0fdc-125">Run Hive jobs</span></span>](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-hive-dotnet-sdk)
+- [<span data-ttu-id="f0fdc-126">Eseguire processi Pig</span><span class="sxs-lookup"><span data-stu-id="f0fdc-126">Run Pig jobs</span></span>](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-pig-dotnet-sdk)
+- [<span data-ttu-id="f0fdc-127">Altri processi</span><span class="sxs-lookup"><span data-stu-id="f0fdc-127">More jobs</span></span>](https://docs.microsoft.com/azure/hdinsight/hdinsight-submit-hadoop-jobs-programmatically)
 
-<span data-ttu-id="5b3bf-128">Visualizzare l'[elenco completo](https://azure.microsoft.com/resources/samples/?platform=dotnet&service=hdinsight) degli esempi di codice per il database SQL di Azure.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-128">View the [complete list](https://azure.microsoft.com/resources/samples/?platform=dotnet&service=hdinsight) of Azure SQL Database samples.</span></span>
+<span data-ttu-id="f0fdc-128">Visualizzare l'[elenco completo](https://azure.microsoft.com/resources/samples/?platform=dotnet&service=hdinsight) degli esempi di codice per il database SQL di Azure.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-128">View the [complete list](https://azure.microsoft.com/resources/samples/?platform=dotnet&service=hdinsight) of Azure SQL Database samples.</span></span>
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
 
-## <a name="hdinsight-net-management-sdk-3x-preview"></a><span data-ttu-id="5b3bf-129">Anteprima di HDInsight .NET Management SDK 3.X</span><span class="sxs-lookup"><span data-stu-id="5b3bf-129">HDInsight .NET Management SDK 3.X Preview</span></span>
+## <a name="hdinsight-net-management-sdk-3x-preview"></a><span data-ttu-id="f0fdc-129">Anteprima di HDInsight .NET Management SDK 3.X</span><span class="sxs-lookup"><span data-stu-id="f0fdc-129">HDInsight .NET Management SDK 3.X Preview</span></span>
 
-## <a name="overview"></a><span data-ttu-id="5b3bf-130">Panoramica</span><span class="sxs-lookup"><span data-stu-id="5b3bf-130">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="f0fdc-130">Panoramica</span><span class="sxs-lookup"><span data-stu-id="f0fdc-130">Overview</span></span>
 
-<span data-ttu-id="5b3bf-131">HDInsight .NET SDK fornisce classi e metodi che consentono di gestire i cluster HDInsight.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-131">The HDInsight .NET SDK provides classes and methods that allow you to manage your HDInsight clusters.</span></span> <span data-ttu-id="5b3bf-132">Include operazioni per creare, eliminare, aggiornare, elencare, ridimensionare, eseguire azioni di script, monitorare, ottenere le proprietà dei cluster di HDInsight e altro ancora.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-132">It includes operations to create, delete, update, list, scale, execute script actions, monitor, get properties of HDInsight clusters, and more.</span></span>
+<span data-ttu-id="f0fdc-131">HDInsight .NET SDK fornisce classi e metodi che consentono di gestire i cluster HDInsight.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-131">The HDInsight .NET SDK provides classes and methods that allow you to manage your HDInsight clusters.</span></span> <span data-ttu-id="f0fdc-132">Include operazioni per creare, eliminare, aggiornare, elencare, ridimensionare, eseguire azioni di script, monitorare, ottenere le proprietà dei cluster di HDInsight e altro ancora.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-132">It includes operations to create, delete, update, list, resize, execute script actions, monitor, get properties of HDInsight clusters, and more.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="5b3bf-133">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="5b3bf-133">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="f0fdc-133">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="f0fdc-133">Prerequisites</span></span>
 
-* <span data-ttu-id="5b3bf-134">Un account Azure.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-134">An Azure account.</span></span> <span data-ttu-id="5b3bf-135">Se non è disponibile, [ottenere una versione di valutazione gratuita](https://azure.microsoft.com/free/).</span><span class="sxs-lookup"><span data-stu-id="5b3bf-135">If you don't have one, [get a free trial](https://azure.microsoft.com/free/).</span></span>
-* [<span data-ttu-id="5b3bf-136">Visual Studio</span><span class="sxs-lookup"><span data-stu-id="5b3bf-136">Visual Studio</span></span>](https://visualstudio.microsoft.com/downloads/)
+* <span data-ttu-id="f0fdc-134">Un account Azure.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-134">An Azure account.</span></span> <span data-ttu-id="f0fdc-135">Se non è disponibile, [ottenere una versione di valutazione gratuita](https://azure.microsoft.com/free/).</span><span class="sxs-lookup"><span data-stu-id="f0fdc-135">If you don't have one, [get a free trial](https://azure.microsoft.com/free/).</span></span>
+* [<span data-ttu-id="f0fdc-136">Visual Studio</span><span class="sxs-lookup"><span data-stu-id="f0fdc-136">Visual Studio</span></span>](https://visualstudio.microsoft.com/downloads/)
 
-## <a name="sdk-installation"></a><span data-ttu-id="5b3bf-137">Installazione dell'SDK</span><span class="sxs-lookup"><span data-stu-id="5b3bf-137">SDK Installation</span></span>
+## <a name="sdk-installation"></a><span data-ttu-id="f0fdc-137">Installazione dell'SDK</span><span class="sxs-lookup"><span data-stu-id="f0fdc-137">SDK Installation</span></span>
 
-<span data-ttu-id="5b3bf-138">Dal progetto Visual Studio, aprire la console di Gestione pacchetti facendo clic su **Strumenti**, **Gestione pacchetti NuGet** e quindi su **Console di Gestione pacchetti**.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-138">From your Visual Studio project, open the Package Manager Console by clicking **Tools**, **NuGet Package Manager**, and then click **Package Manager Console**.</span></span>
+<span data-ttu-id="f0fdc-138">Dal progetto Visual Studio, aprire la console di Gestione pacchetti facendo clic su **Strumenti**, **Gestione pacchetti NuGet** e quindi su **Console di Gestione pacchetti**.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-138">From your Visual Studio project, open the Package Manager Console by clicking **Tools**, **NuGet Package Manager**, and then click **Package Manager Console**.</span></span>
 
-<span data-ttu-id="5b3bf-139">In Console di Gestione pacchetti eseguire questi comandi:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-139">In the Package Manager Console, execute the following commands:</span></span>
+<span data-ttu-id="f0fdc-139">In Console di Gestione pacchetti eseguire questi comandi:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-139">In the Package Manager Console, execute the following commands:</span></span>
 
 ```
   Install-Package Microsoft.Azure.Management.HDInsight -Version 3.1.0-preview
@@ -141,22 +141,22 @@ managementClient.Clusters.Create("<ExistingResourceGroupName>", "<NewClusterName
   Install-Package Microsoft.Azure.Management.ResourceManager.Fluent
 ```
 
-## <a name="authentication"></a><span data-ttu-id="5b3bf-140">Authentication</span><span class="sxs-lookup"><span data-stu-id="5b3bf-140">Authentication</span></span>
+## <a name="authentication"></a><span data-ttu-id="f0fdc-140">Authentication</span><span class="sxs-lookup"><span data-stu-id="f0fdc-140">Authentication</span></span>
 
-<span data-ttu-id="5b3bf-141">L'SDK deve essere prima autenticato con la sottoscrizione di Azure.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-141">The SDK first needs to be authenticated with your Azure subscription.</span></span>  <span data-ttu-id="5b3bf-142">Seguire questo esempio per creare un'entità servizio e usarla per l'autenticazione.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-142">Follow the example below to create a service principal and use it to authenticate.</span></span> <span data-ttu-id="5b3bf-143">Al termine si avrà un'istanza di un `HDInsightManagementClient` che contiene molti metodi, descritti nelle sezioni seguenti, che possono essere usati per operazioni di gestione.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-143">After this is done, you will have an instance of an `HDInsightManagementClient`, which contains many methods (outlined in below sections) that can be used to perform management operations.</span></span>
+<span data-ttu-id="f0fdc-141">L'SDK deve essere prima autenticato con la sottoscrizione di Azure.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-141">The SDK first needs to be authenticated with your Azure subscription.</span></span>  <span data-ttu-id="f0fdc-142">Seguire questo esempio per creare un'entità servizio e usarla per l'autenticazione.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-142">Follow the example below to create a service principal and use it to authenticate.</span></span> <span data-ttu-id="f0fdc-143">Al termine si avrà un'istanza di un `HDInsightManagementClient` che contiene molti metodi, descritti nelle sezioni seguenti, che possono essere usati per operazioni di gestione.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-143">After this is done, you will have an instance of an `HDInsightManagementClient`, which contains many methods (outlined in below sections) that can be used to perform management operations.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5b3bf-144">Oltre all'esempio seguente esistono altre modalità di autenticazione che possono essere più adatte alle proprie esigenze.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-144">There are other ways to authenticate besides the below example that could potentially be better suited for your needs.</span></span> <span data-ttu-id="5b3bf-145">Tutti i metodi sono descritti qui: [Eseguire l'autenticazione con le librerie di Azure per .NET](https://docs.microsoft.com/en-us/dotnet/azure/dotnet-sdk-azure-authenticate?view=azure-dotnet)</span><span class="sxs-lookup"><span data-stu-id="5b3bf-145">All methods are outlined here: [Authenticate with the Azure Libraries for .NET](https://docs.microsoft.com/en-us/dotnet/azure/dotnet-sdk-azure-authenticate?view=azure-dotnet)</span></span>
+> <span data-ttu-id="f0fdc-144">Oltre all'esempio seguente esistono altre modalità di autenticazione che possono essere più adatte alle proprie esigenze.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-144">There are other ways to authenticate besides the below example that could potentially be better suited for your needs.</span></span> <span data-ttu-id="f0fdc-145">Tutti i metodi sono descritti qui: [Eseguire l'autenticazione con le librerie di Azure per .NET](https://docs.microsoft.com/en-us/dotnet/azure/dotnet-sdk-azure-authenticate?view=azure-dotnet)</span><span class="sxs-lookup"><span data-stu-id="f0fdc-145">All methods are outlined here: [Authenticate with the Azure Libraries for .NET](https://docs.microsoft.com/en-us/dotnet/azure/dotnet-sdk-azure-authenticate?view=azure-dotnet)</span></span>
 
-### <a name="authentication-example-using-a-service-principal"></a><span data-ttu-id="5b3bf-146">Esempio di autenticazione con un'entità servizio</span><span class="sxs-lookup"><span data-stu-id="5b3bf-146">Authentication Example Using a Service Principal</span></span>
+### <a name="authentication-example-using-a-service-principal"></a><span data-ttu-id="f0fdc-146">Esempio di autenticazione con un'entità servizio</span><span class="sxs-lookup"><span data-stu-id="f0fdc-146">Authentication Example Using a Service Principal</span></span>
 
-<span data-ttu-id="5b3bf-147">Per prima cosa, accedere ad [Azure Cloud Shell](https://shell.azure.com/bash).</span><span class="sxs-lookup"><span data-stu-id="5b3bf-147">First, login to [Azure Cloud Shell](https://shell.azure.com/bash).</span></span> <span data-ttu-id="5b3bf-148">Verificare che si stia attualmente usando la sottoscrizione in cui si vuole creare l'entità servizio.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-148">Verify you are currently using the subscription in which you want the service principal created.</span></span> 
+<span data-ttu-id="f0fdc-147">Per prima cosa, accedere ad [Azure Cloud Shell](https://shell.azure.com/bash).</span><span class="sxs-lookup"><span data-stu-id="f0fdc-147">First, login to [Azure Cloud Shell](https://shell.azure.com/bash).</span></span> <span data-ttu-id="f0fdc-148">Verificare che si stia attualmente usando la sottoscrizione in cui si vuole creare l'entità servizio.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-148">Verify you are currently using the subscription in which you want the service principal created.</span></span> 
 
 ```azurecli-interactive
 az account show
 ```
 
-<span data-ttu-id="5b3bf-149">Le informazioni sulla sottoscrizione vengono visualizzate in formato JSON.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-149">Your subscription information is displayed as JSON.</span></span>
+<span data-ttu-id="f0fdc-149">Le informazioni sulla sottoscrizione vengono visualizzate in formato JSON.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-149">Your subscription information is displayed as JSON.</span></span>
 
 ```json
 {
@@ -174,24 +174,24 @@ az account show
 }
 ```
 
-<span data-ttu-id="5b3bf-150">Se non si è eseguito l'accesso alla sottoscrizione corretta, selezionare quella corretta eseguendo:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-150">If you're not logged into the correct subscription, select the correct one by running:</span></span> 
+<span data-ttu-id="f0fdc-150">Se non si è eseguito l'accesso alla sottoscrizione corretta, selezionare quella corretta eseguendo:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-150">If you're not logged into the correct subscription, select the correct one by running:</span></span> 
 ```azurecli-interactive
 az account set -s <name or ID of subscription>
 ```
 
 > [!IMPORTANT]
-> <span data-ttu-id="5b3bf-151">Se il provider di risorse HDInsight non è già stato registrato con un altro metodo, ad esempio creando un cluster HDInsight tramite il portale di Azure, è necessario eseguire questa operazione una volta prima di poter eseguire l'autenticazione.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-151">If you have not already registered the HDInsight Resource Provider by another method (such as by creating an HDInsight Cluster through the Azure Portal), you need to do this once before you can authenticate.</span></span> <span data-ttu-id="5b3bf-152">La registrazione può essere eseguita da [Azure Cloud Shell](https://shell.azure.com/bash) eseguendo questo comando:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-152">This can be done from the [Azure Cloud Shell](https://shell.azure.com/bash) by running the following command:</span></span>
+> <span data-ttu-id="f0fdc-151">Se il provider di risorse HDInsight non è già stato registrato con un altro metodo, ad esempio creando un cluster HDInsight tramite il portale di Azure, è necessario eseguire questa operazione una volta prima di poter eseguire l'autenticazione.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-151">If you have not already registered the HDInsight Resource Provider by another method (such as by creating an HDInsight Cluster through the Azure Portal), you need to do this once before you can authenticate.</span></span> <span data-ttu-id="f0fdc-152">La registrazione può essere eseguita da [Azure Cloud Shell](https://shell.azure.com/bash) eseguendo questo comando:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-152">This can be done from the [Azure Cloud Shell](https://shell.azure.com/bash) by running the following command:</span></span>
 >```azurecli-interactive
 >az provider register --namespace Microsoft.HDInsight
 >```
 
-<span data-ttu-id="5b3bf-153">Scegliere quindi un nome per l'entità servizio e crearla con il comando seguente:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-153">Next, choose a name for your service principal and create it with the following command:</span></span>
+<span data-ttu-id="f0fdc-153">Scegliere quindi un nome per l'entità servizio e crearla con il comando seguente:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-153">Next, choose a name for your service principal and create it with the following command:</span></span>
 
 ```azurecli-interactive
 az ad sp create-for-rbac --name <Service Principal Name> --sdk-auth
 ```
 
-<span data-ttu-id="5b3bf-154">Verranno visualizzate le informazioni relative all'entità servizio in formato JSON.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-154">The service principal information is displayed as JSON.</span></span>
+<span data-ttu-id="f0fdc-154">Verranno visualizzate le informazioni relative all'entità servizio in formato JSON.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-154">The service principal information is displayed as JSON.</span></span>
 
 ```json
 {
@@ -207,7 +207,7 @@ az ad sp create-for-rbac --name <Service Principal Name> --sdk-auth
   "managementEndpointUrl": "https://management.core.windows.net/"
 }
 ```
-<span data-ttu-id="5b3bf-155">Copiare il frammento di codice seguente e compilare `TENANT_ID`, `CLIENT_ID`, `CLIENT_SECRET` e `SUBSCRIPTION_ID` con le stringhe JSON restituite dopo aver eseguito il comando per creare l'entità servizio.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-155">Copy the below snippet and fill in `TENANT_ID`, `CLIENT_ID`, `CLIENT_SECRET`, and `SUBSCRIPTION_ID` with the strings from the JSON that was returned after running the command to create the service principal.</span></span>
+<span data-ttu-id="f0fdc-155">Copiare il frammento di codice seguente e compilare `TENANT_ID`, `CLIENT_ID`, `CLIENT_SECRET` e `SUBSCRIPTION_ID` con le stringhe JSON restituite dopo aver eseguito il comando per creare l'entità servizio.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-155">Copy the below snippet and fill in `TENANT_ID`, `CLIENT_ID`, `CLIENT_SECRET`, and `SUBSCRIPTION_ID` with the strings from the JSON that was returned after running the command to create the service principal.</span></span>
 
 ```csharp
 using Microsoft.Azure.Management.HDInsight;
@@ -244,40 +244,40 @@ namespace HDI_SDK_Test
 ```
 
 
-## <a name="cluster-management"></a><span data-ttu-id="5b3bf-156">Gestione dei cluster</span><span class="sxs-lookup"><span data-stu-id="5b3bf-156">Cluster Management</span></span>
+## <a name="cluster-management"></a><span data-ttu-id="f0fdc-156">Gestione dei cluster</span><span class="sxs-lookup"><span data-stu-id="f0fdc-156">Cluster Management</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5b3bf-157">Questa sezione presuppone che l'utente abbia già eseguito l'autenticazione e abbia creato un'istanza `HDInsightManagementClient` che ha poi archiviato in una variabile chiamata `client`.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-157">This section assumes you have already authenticated and constructed an `HDInsightManagementClient` instance and store it in a variable called `client`.</span></span> <span data-ttu-id="5b3bf-158">Le istruzioni per l'autenticazione e l'ottenimento di un `HDInsightManagementClient` sono disponibili nella sezione Autenticazione precedente.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-158">Instructions for authenticating and obtaining an `HDInsightManagementClient` can be found in the Authentication section above.</span></span>
+> <span data-ttu-id="f0fdc-157">Questa sezione presuppone che l'utente abbia già eseguito l'autenticazione e abbia creato un'istanza `HDInsightManagementClient` che ha poi archiviato in una variabile chiamata `client`.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-157">This section assumes you have already authenticated and constructed an `HDInsightManagementClient` instance and store it in a variable called `client`.</span></span> <span data-ttu-id="f0fdc-158">Le istruzioni per l'autenticazione e l'ottenimento di un `HDInsightManagementClient` sono disponibili nella sezione Autenticazione precedente.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-158">Instructions for authenticating and obtaining an `HDInsightManagementClient` can be found in the Authentication section above.</span></span>
 
-### <a name="create-a-cluster"></a><span data-ttu-id="5b3bf-159">Creare un cluster</span><span class="sxs-lookup"><span data-stu-id="5b3bf-159">Create a Cluster</span></span>
+### <a name="create-a-cluster"></a><span data-ttu-id="f0fdc-159">Creare un cluster</span><span class="sxs-lookup"><span data-stu-id="f0fdc-159">Create a Cluster</span></span>
 
-<span data-ttu-id="5b3bf-160">Un nuovo cluster può essere creato chiamando `client.Clusters.Create()`.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-160">A new cluster can be created by calling `client.Clusters.Create()`.</span></span> 
+<span data-ttu-id="f0fdc-160">Un nuovo cluster può essere creato chiamando `client.Clusters.Create()`.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-160">A new cluster can be created by calling `client.Clusters.Create()`.</span></span> 
 
-#### <a name="example"></a><span data-ttu-id="5b3bf-161">Esempio</span><span class="sxs-lookup"><span data-stu-id="5b3bf-161">Example</span></span>
+#### <a name="example"></a><span data-ttu-id="f0fdc-161">Esempio</span><span class="sxs-lookup"><span data-stu-id="f0fdc-161">Example</span></span>
 
-<span data-ttu-id="5b3bf-162">Questo esempio illustra come creare un cluster Spark con 2 nodi head e 1 nodo del ruolo di lavoro.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-162">This example demonstrates how to create a Spark cluster with 2 head nodes and 1 worker node.</span></span>
+<span data-ttu-id="f0fdc-162">Questo esempio illustra come creare un cluster Spark con 2 nodi head e 1 nodo del ruolo di lavoro.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-162">This example demonstrates how to create a Spark cluster with 2 head nodes and 1 worker node.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5b3bf-163">È prima necessario creare un gruppo di risorse e un account di archiviazione, come spiegato di seguito.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-163">You first need to create a Resource Group and Storage Account, as explained below.</span></span> <span data-ttu-id="5b3bf-164">Se sono già stati creati, è possibile ignorare questi passaggi.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-164">If you have already created these, you can skip these steps.</span></span>
+> <span data-ttu-id="f0fdc-163">È prima necessario creare un gruppo di risorse e un account di archiviazione, come spiegato di seguito.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-163">You first need to create a Resource Group and Storage Account, as explained below.</span></span> <span data-ttu-id="f0fdc-164">Se sono già stati creati, è possibile ignorare questi passaggi.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-164">If you have already created these, you can skip these steps.</span></span>
 
-##### <a name="creating-a-resource-group"></a><span data-ttu-id="5b3bf-165">Creazione di un gruppo di risorse</span><span class="sxs-lookup"><span data-stu-id="5b3bf-165">Creating a Resource Group</span></span>
+##### <a name="creating-a-resource-group"></a><span data-ttu-id="f0fdc-165">Creazione di un gruppo di risorse</span><span class="sxs-lookup"><span data-stu-id="f0fdc-165">Creating a Resource Group</span></span>
 
-<span data-ttu-id="5b3bf-166">È possibile creare un gruppo di risorse con [Azure Cloud Shell](https://shell.azure.com/bash) eseguendo</span><span class="sxs-lookup"><span data-stu-id="5b3bf-166">You can create a resource group using the [Azure Cloud Shell](https://shell.azure.com/bash) by running</span></span>
+<span data-ttu-id="f0fdc-166">È possibile creare un gruppo di risorse con [Azure Cloud Shell](https://shell.azure.com/bash) eseguendo</span><span class="sxs-lookup"><span data-stu-id="f0fdc-166">You can create a resource group using the [Azure Cloud Shell](https://shell.azure.com/bash) by running</span></span>
 ```azurecli-interactive
 az group create -l <Region Name (i.e. eastus)> --n <Resource Group Name>
 ```
-##### <a name="creating-a-storage-account"></a><span data-ttu-id="5b3bf-167">Creazione di un account di archiviazione</span><span class="sxs-lookup"><span data-stu-id="5b3bf-167">Creating a Storage Account</span></span>
+##### <a name="creating-a-storage-account"></a><span data-ttu-id="f0fdc-167">Creazione di un account di archiviazione</span><span class="sxs-lookup"><span data-stu-id="f0fdc-167">Creating a Storage Account</span></span>
 
-<span data-ttu-id="5b3bf-168">È possibile creare un account di archiviazione con [Azure Cloud Shell](https://shell.azure.com/bash) eseguendo:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-168">You can create a storage account using the [Azure Cloud Shell](https://shell.azure.com/bash) by running:</span></span>
+<span data-ttu-id="f0fdc-168">È possibile creare un account di archiviazione con [Azure Cloud Shell](https://shell.azure.com/bash) eseguendo:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-168">You can create a storage account using the [Azure Cloud Shell](https://shell.azure.com/bash) by running:</span></span>
 ```azurecli-interactive
 az storage account create -n <Storage Account Name> -g <Existing Resource Group Name> -l <Region Name (i.e. eastus)> --sku <SKU i.e. Standard_LRS>
 ```
-<span data-ttu-id="5b3bf-169">Eseguire ora questo comando per ottenere la chiave per l'account di archiviazione. Questa chiave sarà necessaria per creare un cluster:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-169">Now run the following command to get the key for your storage account (you will need this to create a cluster):</span></span>
+<span data-ttu-id="f0fdc-169">Eseguire ora questo comando per ottenere la chiave per l'account di archiviazione. Questa chiave sarà necessaria per creare un cluster:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-169">Now run the following command to get the key for your storage account (you will need this to create a cluster):</span></span>
 ```azurecli-interactive
 az storage account keys list -n <Storage Account Name>
 ```
 ---
-<span data-ttu-id="5b3bf-170">Il frammento di codice .NET seguente crea un cluster Spark con 2 nodi head e 1 nodo del ruolo di lavoro.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-170">The below .NET snippet creates a Spark cluster with 2 head nodes and 1 worker node.</span></span> <span data-ttu-id="5b3bf-171">Inserire le variabili vuote come spiegato nei commenti. È possibile modificare altri parametri in base alle proprie esigenze.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-171">Fill in the blank variables as explained in the comments and feel free to change other parameters to suit your specific needs.</span></span>
+<span data-ttu-id="f0fdc-170">Il frammento di codice .NET seguente crea un cluster Spark con 2 nodi head e 1 nodo del ruolo di lavoro.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-170">The below .NET snippet creates a Spark cluster with 2 head nodes and 1 worker node.</span></span> <span data-ttu-id="f0fdc-171">Inserire le variabili vuote come spiegato nei commenti. È possibile modificare altri parametri in base alle proprie esigenze.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-171">Fill in the blank variables as explained in the comments and feel free to change other parameters to suit your specific needs.</span></span>
 
 ```csharp
 // The name for the cluster you are creating
@@ -380,17 +380,17 @@ client.Clusters.Create(
 );
 ```
 
-### <a name="get-cluster-details"></a><span data-ttu-id="5b3bf-172">Ottenere i dettagli del cluster</span><span class="sxs-lookup"><span data-stu-id="5b3bf-172">Get Cluster Details</span></span>
+### <a name="get-cluster-details"></a><span data-ttu-id="f0fdc-172">Ottenere i dettagli del cluster</span><span class="sxs-lookup"><span data-stu-id="f0fdc-172">Get Cluster Details</span></span>
 
-<span data-ttu-id="5b3bf-173">Per ottenere le proprietà di un dato cluster:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-173">To get properties for a given cluster:</span></span>
+<span data-ttu-id="f0fdc-173">Per ottenere le proprietà di un dato cluster:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-173">To get properties for a given cluster:</span></span>
 
 ```csharp
 client.Clusters.Get("<Resource Group Name>", "<Cluster Name>");
 ```
 
-#### <a name="example"></a><span data-ttu-id="5b3bf-174">Esempio</span><span class="sxs-lookup"><span data-stu-id="5b3bf-174">Example</span></span>
+#### <a name="example"></a><span data-ttu-id="f0fdc-174">Esempio</span><span class="sxs-lookup"><span data-stu-id="f0fdc-174">Example</span></span>
 
-<span data-ttu-id="5b3bf-175">È possibile usare `get` per verificare che il cluster sia stato creato correttamente.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-175">You can use `get` to confirm that you have successfully created your cluster.</span></span>
+<span data-ttu-id="f0fdc-175">È possibile usare `get` per verificare che il cluster sia stato creato correttamente.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-175">You can use `get` to confirm that you have successfully created your cluster.</span></span>
 
 ```csharp
 var myCluster = client.Clusters.Get("<Resource Group Name>", "<Cluster Name>");
@@ -398,33 +398,33 @@ Debug.WriteLine(myCluster.Name); //Prints the name of the cluster
 Debug.WriteLine(myCluster.Id) //Prints the resource Id of the cluster
 ```
 
-<span data-ttu-id="5b3bf-176">L'output sarà simile al seguente:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-176">The output should look like:</span></span>
+<span data-ttu-id="f0fdc-176">L'output sarà simile al seguente:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-176">The output should look like:</span></span>
 
 ```
 <Cluster Name>
 /subscriptions/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/resourceGroups/<Resource Group Name>/providers/Microsoft.HDInsight/clusters/<Cluster Name>
 ```
 > [!NOTE]
-> <span data-ttu-id="5b3bf-177">Il valore restituito di `get`, archiviato nella variabile `myCluster`, è di tipo `Microsoft.Azure.Management.HDInsight.ModelsCluster`.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-177">The return value of `get`, stored in variable `myCluster`, is of type `Microsoft.Azure.Management.HDInsight.ModelsCluster`.</span></span> <span data-ttu-id="5b3bf-178">Un elenco completo delle proprietà di questo oggetto è disponibile [qui](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.management.hdinsight.models.cluster?view=azure-dotnet-preview).</span><span class="sxs-lookup"><span data-stu-id="5b3bf-178">A full list of this object's properties can be found [here](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.management.hdinsight.models.cluster?view=azure-dotnet-preview).</span></span>
+> <span data-ttu-id="f0fdc-177">Il valore restituito di `get`, archiviato nella variabile `myCluster`, è di tipo `Microsoft.Azure.Management.HDInsight.ModelsCluster`.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-177">The return value of `get`, stored in variable `myCluster`, is of type `Microsoft.Azure.Management.HDInsight.ModelsCluster`.</span></span> <span data-ttu-id="f0fdc-178">Un elenco completo delle proprietà di questo oggetto è disponibile [qui](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.management.hdinsight.models.cluster?view=azure-dotnet-preview).</span><span class="sxs-lookup"><span data-stu-id="f0fdc-178">A full list of this object's properties can be found [here](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.management.hdinsight.models.cluster?view=azure-dotnet-preview).</span></span>
 
 
-### <a name="list-clusters"></a><span data-ttu-id="5b3bf-179">Elencare cluster</span><span class="sxs-lookup"><span data-stu-id="5b3bf-179">List Clusters</span></span>
+### <a name="list-clusters"></a><span data-ttu-id="f0fdc-179">Elencare cluster</span><span class="sxs-lookup"><span data-stu-id="f0fdc-179">List Clusters</span></span>
 
-#### <a name="list-clusters-under-the-subscription"></a><span data-ttu-id="5b3bf-180">Elencare i cluster nella sottoscrizione</span><span class="sxs-lookup"><span data-stu-id="5b3bf-180">List Clusters Under The Subscription</span></span>
+#### <a name="list-clusters-under-the-subscription"></a><span data-ttu-id="f0fdc-180">Elencare i cluster nella sottoscrizione</span><span class="sxs-lookup"><span data-stu-id="f0fdc-180">List Clusters Under The Subscription</span></span>
 
 ```csharp
 client.Clusters.List();
 ```
-#### <a name="list-clusters-by-resource-group"></a><span data-ttu-id="5b3bf-181">Elencare i cluster per gruppo di risorse</span><span class="sxs-lookup"><span data-stu-id="5b3bf-181">List Clusters By Resource Group</span></span>
+#### <a name="list-clusters-by-resource-group"></a><span data-ttu-id="f0fdc-181">Elencare i cluster per gruppo di risorse</span><span class="sxs-lookup"><span data-stu-id="f0fdc-181">List Clusters By Resource Group</span></span>
 
 ```csharp
 client.Clusters.ListByResourceGroup("<Resource Group Name>");
 ```
 > [!NOTE]
-> <span data-ttu-id="5b3bf-182">Sia `List()` che `ListByResourceGroup()` restituiscono un oggetto `IPage<Cluster>`.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-182">Both `List()` and `ListByResourceGroup()` return an `IPage<Cluster>` object.</span></span> <span data-ttu-id="5b3bf-183">Per ottenere la pagina successiva è possibile chiamare `client.Clusters.ListNext("Next Page Link")`.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-183">To get the next page, you can call `client.Clusters.ListNext("Next Page Link")`.</span></span> <span data-ttu-id="5b3bf-184">Questa operazione può essere ripetuta fino a quando `NextPageLink` non diventa `null`, come illustrato nell'esempio seguente.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-184">This can be repeated until `NextPageLink` is `null`, as shown in the example below.</span></span>
+> <span data-ttu-id="f0fdc-182">Sia `List()` che `ListByResourceGroup()` restituiscono un oggetto `IPage<Cluster>`.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-182">Both `List()` and `ListByResourceGroup()` return an `IPage<Cluster>` object.</span></span> <span data-ttu-id="f0fdc-183">Per ottenere la pagina successiva è possibile chiamare `client.Clusters.ListNext("Next Page Link")`.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-183">To get the next page, you can call `client.Clusters.ListNext("Next Page Link")`.</span></span> <span data-ttu-id="f0fdc-184">Questa operazione può essere ripetuta fino a quando `NextPageLink` non diventa `null`, come illustrato nell'esempio seguente.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-184">This can be repeated until `NextPageLink` is `null`, as shown in the example below.</span></span>
 
-#### <a name="example"></a><span data-ttu-id="5b3bf-185">Esempio</span><span class="sxs-lookup"><span data-stu-id="5b3bf-185">Example</span></span>
-<span data-ttu-id="5b3bf-186">L'esempio seguente mostra le proprietà di tutti i cluster per la sottoscrizione corrente:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-186">The following example prints the properties of all clusters for the current subscription:</span></span>
+#### <a name="example"></a><span data-ttu-id="f0fdc-185">Esempio</span><span class="sxs-lookup"><span data-stu-id="f0fdc-185">Example</span></span>
+<span data-ttu-id="f0fdc-186">L'esempio seguente mostra le proprietà di tutti i cluster per la sottoscrizione corrente:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-186">The following example prints the properties of all clusters for the current subscription:</span></span>
 
 ```csharp
 var clustersPaged = client.Clusters.List();
@@ -442,75 +442,75 @@ while (true)
 }
 ```
 
-### <a name="delete-a-cluster"></a><span data-ttu-id="5b3bf-187">Eliminare un cluster</span><span class="sxs-lookup"><span data-stu-id="5b3bf-187">Delete a Cluster</span></span>
+### <a name="delete-a-cluster"></a><span data-ttu-id="f0fdc-187">Eliminare un cluster</span><span class="sxs-lookup"><span data-stu-id="f0fdc-187">Delete a Cluster</span></span>
 
-<span data-ttu-id="5b3bf-188">Per eliminare un cluster:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-188">To delete a cluster:</span></span>
+<span data-ttu-id="f0fdc-188">Per eliminare un cluster:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-188">To delete a cluster:</span></span>
 
 ```csharp
 client.Clusters.Delete("<Resource Group Name>", "<Cluster Name>");
 ```
 
-### <a name="update-cluster-tags"></a><span data-ttu-id="5b3bf-189">Aggiornare i tag del cluster</span><span class="sxs-lookup"><span data-stu-id="5b3bf-189">Update Cluster Tags</span></span>
+### <a name="update-cluster-tags"></a><span data-ttu-id="f0fdc-189">Aggiornare i tag del cluster</span><span class="sxs-lookup"><span data-stu-id="f0fdc-189">Update Cluster Tags</span></span>
 
-<span data-ttu-id="5b3bf-190">È possibile aggiornare i tag di un dato cluster nel modo seguente:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-190">You can update the tags of a given cluster like so:</span></span>
+<span data-ttu-id="f0fdc-190">È possibile aggiornare i tag di un dato cluster nel modo seguente:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-190">You can update the tags of a given cluster like so:</span></span>
 
 ```csharp
 client.Clusters.Update("<Resource Group Name>", "<Cluster Name>", new ClusterPatchParameters(<Dictionary of Tags>));
 ```
-#### <a name="example"></a><span data-ttu-id="5b3bf-191">Esempio</span><span class="sxs-lookup"><span data-stu-id="5b3bf-191">Example</span></span>
+#### <a name="example"></a><span data-ttu-id="f0fdc-191">Esempio</span><span class="sxs-lookup"><span data-stu-id="f0fdc-191">Example</span></span>
 
 ```csharp
 client.Clusters.Update("<Resource Group Name>", "<Cluster Name>", new ClusterPatchParameters(new Dictionary<string, string> { { "tag1Name", "tag1Value" }, { "tag2Name", "tag2Value" } }));
 ```
 
-### <a name="scale-cluster"></a><span data-ttu-id="5b3bf-192">Ridimensionare un cluster</span><span class="sxs-lookup"><span data-stu-id="5b3bf-192">Scale Cluster</span></span>
+### <a name="resize-cluster"></a><span data-ttu-id="f0fdc-192">Ridimensionare un cluster</span><span class="sxs-lookup"><span data-stu-id="f0fdc-192">Resize Cluster</span></span>
 
-<span data-ttu-id="5b3bf-193">È possibile ridimensionare il numero di nodi di ruolo di lavoro di un dato cluster specificando una nuova dimensione nel modo seguente:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-193">You can scale a given cluster's number of worker nodes by specifying a new size like so:</span></span>
+<span data-ttu-id="f0fdc-193">È possibile ridimensionare il numero di nodi di ruolo di lavoro di un dato cluster specificando una nuova dimensione nel modo seguente:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-193">You can resize a given cluster's number of worker nodes by specifying a new size like so:</span></span>
 
 ```csharp
 client.Clusters.Resize("<Resource Group Name>", "<Cluster Name>", <Num of Worker Nodes (int)>)
 ```
 
-## <a name="cluster-monitoring"></a><span data-ttu-id="5b3bf-194">Monitoraggio del cluster</span><span class="sxs-lookup"><span data-stu-id="5b3bf-194">Cluster Monitoring</span></span>
+## <a name="cluster-monitoring"></a><span data-ttu-id="f0fdc-194">Monitoraggio del cluster</span><span class="sxs-lookup"><span data-stu-id="f0fdc-194">Cluster Monitoring</span></span>
 
-<span data-ttu-id="5b3bf-195">HDInsight Management SDK può essere usato anche per gestire il monitoraggio dei cluster tramite Operations Management Suite (OMS).</span><span class="sxs-lookup"><span data-stu-id="5b3bf-195">The HDInsight Management SDK can also be used to manage monitoring on your clusters via the Operations Management Suite (OMS).</span></span>
+<span data-ttu-id="f0fdc-195">HDInsight Management SDK può essere usato anche per gestire il monitoraggio dei cluster tramite Operations Management Suite (OMS).</span><span class="sxs-lookup"><span data-stu-id="f0fdc-195">The HDInsight Management SDK can also be used to manage monitoring on your clusters via the Operations Management Suite (OMS).</span></span>
 
-### <a name="enable-oms-monitoring"></a><span data-ttu-id="5b3bf-196">Abilitare il monitoraggio di OMS</span><span class="sxs-lookup"><span data-stu-id="5b3bf-196">Enable OMS Monitoring</span></span>
+### <a name="enable-oms-monitoring"></a><span data-ttu-id="f0fdc-196">Abilitare il monitoraggio di OMS</span><span class="sxs-lookup"><span data-stu-id="f0fdc-196">Enable OMS Monitoring</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5b3bf-197">Per abilitare il monitoraggio di OMS è necessaria un'area di lavoro di Log Analytics esistente.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-197">To enable OMS Monitoring, you must have an existing Log Analytics workspace.</span></span> <span data-ttu-id="5b3bf-198">Se l'area non è stata ancora creata, vedere [Creare un'area di lavoro di Log Analytics nel portale di Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-quick-create-workspace) per informazioni su come crearla.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-198">If you have not already created one, you can learn how to do that here: [Create a Log Analytics workspace in the Azure portal](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-quick-create-workspace).</span></span>
+> <span data-ttu-id="f0fdc-197">Per abilitare il monitoraggio di OMS è necessaria un'area di lavoro di Log Analytics esistente.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-197">To enable OMS Monitoring, you must have an existing Log Analytics workspace.</span></span> <span data-ttu-id="f0fdc-198">Se l'area non è stata ancora creata, vedere [Creare un'area di lavoro di Log Analytics nel portale di Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-quick-create-workspace) per informazioni su come crearla.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-198">If you have not already created one, you can learn how to do that here: [Create a Log Analytics workspace in the Azure portal](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-quick-create-workspace).</span></span>
 
-<span data-ttu-id="5b3bf-199">Per abilitare il monitoraggio di OMS nel cluster:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-199">To enable OMS Monitoring on your cluster:</span></span>
+<span data-ttu-id="f0fdc-199">Per abilitare il monitoraggio di OMS nel cluster:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-199">To enable OMS Monitoring on your cluster:</span></span>
 
 ```csharp
 client.Extension.EnableMonitoring("<Resource Group Name", "Cluster Name", new ClusterMonitoringRequest(workspaceId: "<Workspace Id>"));
 ```
 
-### <a name="view-status-of-oms-monitoring"></a><span data-ttu-id="5b3bf-200">Visualizzare lo stato del monitoraggio di OMS</span><span class="sxs-lookup"><span data-stu-id="5b3bf-200">View Status Of OMS Monitoring</span></span>
+### <a name="view-status-of-oms-monitoring"></a><span data-ttu-id="f0fdc-200">Visualizzare lo stato del monitoraggio di OMS</span><span class="sxs-lookup"><span data-stu-id="f0fdc-200">View Status Of OMS Monitoring</span></span>
 
-<span data-ttu-id="5b3bf-201">Per ottenere lo stato di OMS nel cluster:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-201">To get the status of OMS on your cluster:</span></span>
+<span data-ttu-id="f0fdc-201">Per ottenere lo stato di OMS nel cluster:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-201">To get the status of OMS on your cluster:</span></span>
 
 ```csharp
 client.Extension.GetMonitoringStatus("<Resource Group Name", "Cluster Name");
 ```
 
-### <a name="disable-oms-monitoring"></a><span data-ttu-id="5b3bf-202">Disabilitare il monitoraggio di OMS</span><span class="sxs-lookup"><span data-stu-id="5b3bf-202">Disable OMS Monitoring</span></span>
+### <a name="disable-oms-monitoring"></a><span data-ttu-id="f0fdc-202">Disabilitare il monitoraggio di OMS</span><span class="sxs-lookup"><span data-stu-id="f0fdc-202">Disable OMS Monitoring</span></span>
 
-<span data-ttu-id="5b3bf-203">Per disabilitare OMS nel cluster:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-203">To disable OMS on your cluster:</span></span>
+<span data-ttu-id="f0fdc-203">Per disabilitare OMS nel cluster:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-203">To disable OMS on your cluster:</span></span>
 
 ```csharp
 client.Extension.DisableMonitoring("<Resource Group Name>", "<Cluster Name>");
 ```
 
-## <a name="script-actions"></a><span data-ttu-id="5b3bf-204">Azioni script</span><span class="sxs-lookup"><span data-stu-id="5b3bf-204">Script Actions</span></span>
+## <a name="script-actions"></a><span data-ttu-id="f0fdc-204">Azioni script</span><span class="sxs-lookup"><span data-stu-id="f0fdc-204">Script Actions</span></span>
 
-<span data-ttu-id="5b3bf-205">HDInsight offre un metodo di configurazione denominato "azioni script" che richiama script personalizzati per il cluster.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-205">HDInsight provides a configuration method called script actions that invokes custom scripts to customize the cluster.</span></span>
+<span data-ttu-id="f0fdc-205">HDInsight offre un metodo di configurazione denominato "azioni script" che richiama script personalizzati per il cluster.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-205">HDInsight provides a configuration method called script actions that invokes custom scripts to customize the cluster.</span></span>
 > [!NOTE]
-> <span data-ttu-id="5b3bf-206">Per altre informazioni sulle azioni script, vedere [Personalizzare i cluster HDInsight basati su Linux tramite azioni script](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux)</span><span class="sxs-lookup"><span data-stu-id="5b3bf-206">More information on how to use script actions can be found here: [Customize Linux-based HDInsight clusters using script actions](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux)</span></span>
+> <span data-ttu-id="f0fdc-206">Per altre informazioni sulle azioni script, vedere [Personalizzare i cluster HDInsight basati su Linux tramite azioni script](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux)</span><span class="sxs-lookup"><span data-stu-id="f0fdc-206">More information on how to use script actions can be found here: [Customize Linux-based HDInsight clusters using script actions](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux)</span></span>
 
-### <a name="execute-script-actions"></a><span data-ttu-id="5b3bf-207">Eseguire azioni script</span><span class="sxs-lookup"><span data-stu-id="5b3bf-207">Execute Script Actions</span></span>
+### <a name="execute-script-actions"></a><span data-ttu-id="f0fdc-207">Eseguire azioni script</span><span class="sxs-lookup"><span data-stu-id="f0fdc-207">Execute Script Actions</span></span>
 
-<span data-ttu-id="5b3bf-208">È possibile eseguire azioni script in un dato cluster nel modo seguente:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-208">You can execute script actions on a given cluster like so:</span></span>
+<span data-ttu-id="f0fdc-208">È possibile eseguire azioni script in un dato cluster nel modo seguente:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-208">You can execute script actions on a given cluster like so:</span></span>
 
 ```csharp
 var scriptAction1 = new RuntimeScriptAction("<Script Name>", "<URL To Script>", <List<string> of roles>); //valid roles are "headnode", "workernode", "zookeepernode", and "edgenode"
@@ -518,25 +518,25 @@ var scriptAction1 = new RuntimeScriptAction("<Script Name>", "<URL To Script>", 
 client.Clusters.ExecuteScriptActions("<Resource Group Name>", "<Cluster Name>", new List<RuntimeScriptAction> { scriptAction1 }, <persistOnSuccess (bool)>); //add more RuntimeScriptActions to the list to execute multiple scripts
 ```
 
-### <a name="delete-script-action"></a><span data-ttu-id="5b3bf-209">Eliminare un'azione script</span><span class="sxs-lookup"><span data-stu-id="5b3bf-209">Delete Script Action</span></span>
+### <a name="delete-script-action"></a><span data-ttu-id="f0fdc-209">Eliminare un'azione script</span><span class="sxs-lookup"><span data-stu-id="f0fdc-209">Delete Script Action</span></span>
 
-<span data-ttu-id="5b3bf-210">Per eliminare una determinata azione script persistente in un dato cluster:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-210">To delete a specified persisted script action on a given cluster:</span></span>
+<span data-ttu-id="f0fdc-210">Per eliminare una determinata azione script persistente in un dato cluster:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-210">To delete a specified persisted script action on a given cluster:</span></span>
 
 ```csharp
 client.ScriptActions.Delete("<Resource Group Name>", "<Cluster Name>", "<Script Name>");
 ```
 
-### <a name="list-persisted-script-actions"></a><span data-ttu-id="5b3bf-211">Elencare le azioni script persistenti</span><span class="sxs-lookup"><span data-stu-id="5b3bf-211">List Persisted Script Actions</span></span>
+### <a name="list-persisted-script-actions"></a><span data-ttu-id="f0fdc-211">Elencare le azioni script persistenti</span><span class="sxs-lookup"><span data-stu-id="f0fdc-211">List Persisted Script Actions</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5b3bf-212">`ListPersistedScripts()` e `List()` restituiscono un oggetto `IPage<RuntimeScriptActionDetail>`.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-212">`ListPersistedScripts()` and `List()` return an `IPage<RuntimeScriptActionDetail>` object.</span></span> <span data-ttu-id="5b3bf-213">Per ottenere la pagina successiva è possibile chiamare `client.ScriptActions.ListPersistedScriptsNext("Next Page Link")` o `client.ScriptExecutionHistory.ListNext("Next Page Link")`.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-213">To get the next page, you can call `client.ScriptActions.ListPersistedScriptsNext("Next Page Link")` or `client.ScriptExecutionHistory.ListNext("Next Page Link")`.</span></span> <span data-ttu-id="5b3bf-214">Questa operazione può essere ripetuta fino a quando `NextPageLink` non diventa `null`, come illustrato negli esempi seguenti.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-214">This can be repeated until `NextPageLink` is `null`, as shown in the examples below.</span></span>
+> <span data-ttu-id="f0fdc-212">`ListPersistedScripts()` e `List()` restituiscono un oggetto `IPage<RuntimeScriptActionDetail>`.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-212">`ListPersistedScripts()` and `List()` return an `IPage<RuntimeScriptActionDetail>` object.</span></span> <span data-ttu-id="f0fdc-213">Per ottenere la pagina successiva è possibile chiamare `client.ScriptActions.ListPersistedScriptsNext("Next Page Link")` o `client.ScriptExecutionHistory.ListNext("Next Page Link")`.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-213">To get the next page, you can call `client.ScriptActions.ListPersistedScriptsNext("Next Page Link")` or `client.ScriptExecutionHistory.ListNext("Next Page Link")`.</span></span> <span data-ttu-id="f0fdc-214">Questa operazione può essere ripetuta fino a quando `NextPageLink` non diventa `null`, come illustrato negli esempi seguenti.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-214">This can be repeated until `NextPageLink` is `null`, as shown in the examples below.</span></span>
 
-<span data-ttu-id="5b3bf-215">Per elencare tutte le azioni script persistenti per il cluster specificato:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-215">To list all persisted script actions for the specified cluster:</span></span>
+<span data-ttu-id="f0fdc-215">Per elencare tutte le azioni script persistenti per il cluster specificato:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-215">To list all persisted script actions for the specified cluster:</span></span>
 ```csharp
 client.ScriptActions.ListPersistedScripts("<Resource Group Name>", "<Cluster Name>");
 ```
 
-#### <a name="example"></a><span data-ttu-id="5b3bf-216">Esempio</span><span class="sxs-lookup"><span data-stu-id="5b3bf-216">Example</span></span>
+#### <a name="example"></a><span data-ttu-id="f0fdc-216">Esempio</span><span class="sxs-lookup"><span data-stu-id="f0fdc-216">Example</span></span>
 
 ```csharp
 var scriptsPaged = client.ScriptActions.ListPersistedScripts("<Resource Group Name>", "<Cluster Name>");
@@ -554,17 +554,17 @@ while (true)
 }
 ```
 
-### <a name="list-all-scripts-execution-history"></a><span data-ttu-id="5b3bf-217">Elencare la cronologia di esecuzione di tutti gli script</span><span class="sxs-lookup"><span data-stu-id="5b3bf-217">List All Scripts' Execution History</span></span>
+### <a name="list-all-scripts-execution-history"></a><span data-ttu-id="f0fdc-217">Elencare la cronologia di esecuzione di tutti gli script</span><span class="sxs-lookup"><span data-stu-id="f0fdc-217">List All Scripts' Execution History</span></span>
 
-<span data-ttu-id="5b3bf-218">Per elencare la cronologia di esecuzione di tutti gli script per il cluster specificato:</span><span class="sxs-lookup"><span data-stu-id="5b3bf-218">To list all scripts' execution history for the specified cluster:</span></span>
+<span data-ttu-id="f0fdc-218">Per elencare la cronologia di esecuzione di tutti gli script per il cluster specificato:</span><span class="sxs-lookup"><span data-stu-id="f0fdc-218">To list all scripts' execution history for the specified cluster:</span></span>
 
 ```csharp
 client.script_execution_history.list("<Resource Group Name>", "<Cluster Name>");
 ```
 
-#### <a name="example"></a><span data-ttu-id="5b3bf-219">Esempio</span><span class="sxs-lookup"><span data-stu-id="5b3bf-219">Example</span></span>
+#### <a name="example"></a><span data-ttu-id="f0fdc-219">Esempio</span><span class="sxs-lookup"><span data-stu-id="f0fdc-219">Example</span></span>
 
-<span data-ttu-id="5b3bf-220">Questo esempio visualizza tutti i dettagli di tutte le precedenti esecuzioni di script.</span><span class="sxs-lookup"><span data-stu-id="5b3bf-220">This example prints all the details for all past script executions.</span></span>
+<span data-ttu-id="f0fdc-220">Questo esempio visualizza tutti i dettagli di tutte le precedenti esecuzioni di script.</span><span class="sxs-lookup"><span data-stu-id="f0fdc-220">This example prints all the details for all past script executions.</span></span>
 
 ```csharp
 var scriptExecutionsPaged = client.ScriptExecutionHistory.List("<Resource Group Name>", "<Cluster Name>");
