@@ -3,13 +3,13 @@ title: Azure HDInsight .NET SDK
 description: Informazioni di riferimento per Azure HDInsight .NET SDK
 ms.date: 9/19/2018
 ms.topic: reference
-ms.service: hd-insight
-ms.openlocfilehash: d25bdb1c9086cd93190b97f519654f2c193b9dc3
-ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.service: hdinsight
+ms.openlocfilehash: 35e2c8c07fb2b86b2d0ae9be4f855e369c1aa86d
+ms.sourcegitcommit: 1cf4550df8ed3236d838f561f6177d14d89b5e44
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47190684"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49348203"
 ---
 # <a name="azure-hdinsight-net-sdk"></a>Azure HDInsight .NET SDK
 
@@ -463,7 +463,7 @@ client.Clusters.Update("<Resource Group Name>", "<Cluster Name>", new ClusterPat
 client.Clusters.Update("<Resource Group Name>", "<Cluster Name>", new ClusterPatchParameters(new Dictionary<string, string> { { "tag1Name", "tag1Value" }, { "tag2Name", "tag2Value" } }));
 ```
 
-### <a name="scale-cluster"></a>Ridimensionare un cluster
+### <a name="resize-cluster"></a>Ridimensionare un cluster
 
 È possibile ridimensionare il numero di nodi di ruolo di lavoro di un dato cluster specificando una nuova dimensione nel modo seguente:
 
