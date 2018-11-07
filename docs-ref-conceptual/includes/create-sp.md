@@ -3,21 +3,21 @@ ms.service: multiple
 ms.date: 9/20/2018
 ms.topic: include
 ms.openlocfilehash: 5c8cb328802cfb94e944e4241852fb9568e8507f
-ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.sourcegitcommit: 70982e900bd4adfbc121eba55d94544f17c6b495
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47190534"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196054"
 ---
-<span data-ttu-id="dd23d-101">L'applicazione .NET necessita delle autorizzazioni per la lettura e la creazione di risorse nella sottoscrizione di Azure per potere usare le librerie di gestione di Azure per .NET.</span><span class="sxs-lookup"><span data-stu-id="dd23d-101">Your .NET application needs permissions to read and create resources in your Azure subscription in order to use the Azure Management Libraries for .NET.</span></span> <span data-ttu-id="dd23d-102">Creare un'entità servizio e configurare l'app per l'esecuzione con le rispettive credenziali per concedere questo accesso.</span><span class="sxs-lookup"><span data-stu-id="dd23d-102">Create a service principal and configure your app to run with its credentials to grant this access.</span></span> <span data-ttu-id="dd23d-103">Le entità servizio consentono di creare un account non interattivo associato all'identità a cui vengono concessi solo i privilegi necessari per l'esecuzione dell'app.</span><span class="sxs-lookup"><span data-stu-id="dd23d-103">Service principals provide a way to create a non-interactive account associated with your identity to which you grant only the privileges your app needs to run.</span></span>
+<span data-ttu-id="ac621-101">L'applicazione .NET necessita delle autorizzazioni per la lettura e la creazione di risorse nella sottoscrizione di Azure per potere usare le librerie di gestione di Azure per .NET.</span><span class="sxs-lookup"><span data-stu-id="ac621-101">Your .NET application needs permissions to read and create resources in your Azure subscription in order to use the Azure Management Libraries for .NET.</span></span> <span data-ttu-id="ac621-102">Creare un'entità servizio e configurare l'app per l'esecuzione con le rispettive credenziali per concedere questo accesso.</span><span class="sxs-lookup"><span data-stu-id="ac621-102">Create a service principal and configure your app to run with its credentials to grant this access.</span></span> <span data-ttu-id="ac621-103">Le entità servizio consentono di creare un account non interattivo associato all'identità a cui vengono concessi solo i privilegi necessari per l'esecuzione dell'app.</span><span class="sxs-lookup"><span data-stu-id="ac621-103">Service principals provide a way to create a non-interactive account associated with your identity to which you grant only the privileges your app needs to run.</span></span>
 
-<span data-ttu-id="dd23d-104">Per prima cosa, accedere ad [Azure Cloud Shell](https://shell.azure.com/bash).</span><span class="sxs-lookup"><span data-stu-id="dd23d-104">First, login to [Azure Cloud Shell](https://shell.azure.com/bash).</span></span> <span data-ttu-id="dd23d-105">Verificare che si stia attualmente usando la sottoscrizione in cui si vuole creare l'entità servizio.</span><span class="sxs-lookup"><span data-stu-id="dd23d-105">Verify you are currently using the subscription in which you want the service principal created.</span></span> 
+<span data-ttu-id="ac621-104">Per prima cosa, accedere ad [Azure Cloud Shell](https://shell.azure.com/bash).</span><span class="sxs-lookup"><span data-stu-id="ac621-104">First, login to [Azure Cloud Shell](https://shell.azure.com/bash).</span></span> <span data-ttu-id="ac621-105">Verificare che si stia attualmente usando la sottoscrizione in cui si vuole creare l'entità servizio.</span><span class="sxs-lookup"><span data-stu-id="ac621-105">Verify you are currently using the subscription in which you want the service principal created.</span></span> 
 
 ```azurecli-interactive
 az account show
 ```
 
-<span data-ttu-id="dd23d-106">Verranno visualizzate le informazioni relative alla sottoscrizione.</span><span class="sxs-lookup"><span data-stu-id="dd23d-106">Your subscription information is displayed.</span></span>
+<span data-ttu-id="ac621-106">Verranno visualizzate le informazioni relative alla sottoscrizione.</span><span class="sxs-lookup"><span data-stu-id="ac621-106">Your subscription information is displayed.</span></span>
 
 ```json
 {
@@ -35,15 +35,15 @@ az account show
 }
 ```
 
-<span data-ttu-id="dd23d-107">Se non si è eseguito l'accesso alla sottoscrizione corretta, selezionare quella corretta digitando `az account set -s <name or ID of subscription>`.</span><span class="sxs-lookup"><span data-stu-id="dd23d-107">If you're not logged into the correct subscription, select the correct one by typing `az account set -s <name or ID of subscription>`.</span></span>
+<span data-ttu-id="ac621-107">Se non si è eseguito l'accesso alla sottoscrizione corretta, selezionare quella corretta digitando `az account set -s <name or ID of subscription>`.</span><span class="sxs-lookup"><span data-stu-id="ac621-107">If you're not logged into the correct subscription, select the correct one by typing `az account set -s <name or ID of subscription>`.</span></span>
 
-<span data-ttu-id="dd23d-108">Creare l'entità servizio con il comando seguente:</span><span class="sxs-lookup"><span data-stu-id="dd23d-108">Create the service principal with the following command:</span></span>
+<span data-ttu-id="ac621-108">Creare l'entità servizio con il comando seguente:</span><span class="sxs-lookup"><span data-stu-id="ac621-108">Create the service principal with the following command:</span></span>
 
 ```azurecli-interactive
 az ad sp create-for-rbac --sdk-auth
 ```
 
-<span data-ttu-id="dd23d-109">Verranno visualizzate le informazioni relative all'entità servizio in formato JSON.</span><span class="sxs-lookup"><span data-stu-id="dd23d-109">The service principal information is displayed as JSON.</span></span>
+<span data-ttu-id="ac621-109">Verranno visualizzate le informazioni relative all'entità servizio in formato JSON.</span><span class="sxs-lookup"><span data-stu-id="ac621-109">The service principal information is displayed as JSON.</span></span>
 
 ```json
 {
@@ -60,4 +60,4 @@ az ad sp create-for-rbac --sdk-auth
 }
 ```
 
-<span data-ttu-id="dd23d-110">Copiare e incollare l'output JSON in un editor di testo per usarlo in seguito.</span><span class="sxs-lookup"><span data-stu-id="dd23d-110">Copy and paste the JSON output to a text editor for use later.</span></span>
+<span data-ttu-id="ac621-110">Copiare e incollare l'output JSON in un editor di testo per usarlo in seguito.</span><span class="sxs-lookup"><span data-stu-id="ac621-110">Copy and paste the JSON output to a text editor for use later.</span></span>
