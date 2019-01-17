@@ -22,7 +22,7 @@ Per esempi del codice sorgente, vedere l'elenco di [esempi di codice per i servi
 | **App per le API**||
 | [Creare e distribuire un'API Web][3] | Creare e distribuire un'API Web .NET con Swagger. | 
 | **Servizio contenitore di Azure** ||
-| [Introduzione a Kubernetes e ai contenitori Windows][4] | Creare un cluster Kubernetes nel servizio contenitore di Azure tramite un contenitore IIS.
+| [Introduzione a Kubernetes e ai contenitori Windows][4] | Creare un cluster Kubernetes nel servizio Azure Container tramite un contenitore IIS.
 | **Database SQL** ||
 | [Usare .NET per connettersi ai dati ed eseguire query][5] | Usare ADO.NET per connettersi a un database SQL di Azure e quindi usare istruzioni Transact-SQL per eseguire query e inserire, aggiornare ed eliminare dati nel database. | 
 | **Database di Azure per PostgreSQL** ||

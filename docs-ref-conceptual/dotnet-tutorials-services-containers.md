@@ -18,7 +18,7 @@ Per esempi del codice sorgente, vedere l'elenco di [esempi di codice per i servi
 | | |
 |---|---|
 | **Servizio contenitore di Azure** ||
-| [Introduzione a Kubernetes e ai contenitori Windows][1] | Creare un cluster Kubernetes nel servizio contenitore di Azure tramite un contenitore IIS.
+| [Introduzione a Kubernetes e ai contenitori Windows][1] | Creare un cluster Kubernetes nel servizio Azure Container tramite un contenitore IIS.
 |**Service Fabric**| |
 | [Creare un'app di Azure Service Fabric][2] | Creare un'app usando Azure Service Fabric e Visual Studio. | 
 | [Creare un'app di Azure Service Fabric su Linux][3] | Creare un'app usando Azure Service Fabric e .NET Core su Linux. | 
