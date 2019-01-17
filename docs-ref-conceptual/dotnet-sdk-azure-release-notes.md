@@ -25,7 +25,7 @@ ms.locfileid: "47190674"
     <td>Calcolo</td>
     <td>Macchine virtuali ed estensioni di VM<br>set di scalabilità di macchine virtuali<br>Dischi gestiti</td>
     <td></td>
-    <td valign="top">Servizi contenitore di Azure<br>Registro contenitori di Azure</td>
+    <td valign="top">Servizi contenitore di Azure<br>Registro Azure Container</td>
   </tr>
   <tr>
     <td>Archiviazione</td>
