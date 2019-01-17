@@ -1,6 +1,6 @@
 ---
-title: Librerie di Istanze di contenitore di Azure per .NET
-description: Informazioni di riferimento per le librerie di Istanze di contenitore di Azure per .NET
+title: Librerie di Istanze di Azure Container per .NET
+description: Informazioni di riferimento per le librerie di Istanze di Azure Container per .NET
 ms.date: 06/11/2018
 ms.topic: reference
 ms.service: container-instances
@@ -11,13 +11,13 @@ ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2018
 ms.locfileid: "49348103"
 ---
-# <a name="azure-container-instances-libraries-for-net"></a>Librerie di Istanze di contenitore di Azure per .NET
+# <a name="azure-container-instances-libraries-for-net"></a>Librerie di Istanze di Azure Container per .NET
 
-È possibile usare le librerie di Istanze di contenitore di Microsoft Azure per .NET per creare e gestire istanze di contenitore di Azure. Per altre informazioni, vedere [Panoramica di Istanze di contenitore di Azure](/azure/container-instances/container-instances-overview).
+È possibile usare le librerie di Istanze di Container di Microsoft Azure per .NET per creare e gestire Istanze di Azure Container. Per altre informazioni, vedere [Panoramica di Istanze di Azure Container](/azure/container-instances/container-instances-overview).
 
 ## <a name="management-library"></a>Libreria di gestione
 
-Usare la libreria di gestione per creare e gestire istanze di contenitore di Azure in Azure.
+È possibile usare la libreria di gestione per creare e gestire Istanze di Azure Container in Azure.
 
 Installare il [pacchetto NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.ContainerInstance.Fluent) direttamente dalla [Console di Gestione pacchetti][PackageManager] di Visual Studio o tramite l'[interfaccia della riga di comando di .NET Core][DotNetCLI].
 
@@ -124,7 +124,7 @@ Questo esempio elimina un gruppo di contenitori da un gruppo di risorse.
 
   [Azure-Samples/aci-docs-sample-dotnet][aci-docs-sample-dotnet]
 
-* Altri esempi di codice per Istanze di contenitore di Azure:
+* Altri esempi di codice per Istanze di Azure Container:
 
   [Esempi di codice per Azure][samples]
 
