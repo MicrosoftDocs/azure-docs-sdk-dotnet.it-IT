@@ -3,11 +3,11 @@ ms.service: multiple
 ms.date: 9/20/2018
 ms.topic: include
 ms.openlocfilehash: 5c8cb328802cfb94e944e4241852fb9568e8507f
-ms.sourcegitcommit: e25b6ac74033f3b0a7610bf66feb654acb43054c
+ms.sourcegitcommit: e534dad2d96b72ab6a9bc4b5567508962bd7e05c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "53430534"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58343330"
 ---
 L'applicazione .NET necessita delle autorizzazioni per la lettura e la creazione di risorse nella sottoscrizione di Azure per potere usare le librerie di gestione di Azure per .NET. Creare un'entità servizio e configurare l'app per l'esecuzione con le rispettive credenziali per concedere questo accesso. Le entità servizio consentono di creare un account non interattivo associato all'identità a cui vengono concessi solo i privilegi necessari per l'esecuzione dell'app.
 
