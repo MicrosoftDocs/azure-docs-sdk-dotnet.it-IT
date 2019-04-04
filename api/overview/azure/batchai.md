@@ -1,20 +1,20 @@
 ---
 title: API di Azure Batch per intelligenza artificiale per .NET
 description: Informazioni di riferimento sulle librerie di Azure Batch per intelligenza artificiale per .NET
-ms.date: 12/14/18
+ms.date: 03/26/2019
 ms.topic: reference
 ms.service: batch-ai
-ms.openlocfilehash: ab4b86a0a4388163fcbe9a3fb4e5e10f2ef6d458
-ms.sourcegitcommit: 921a533464493aa05a3edefe40cfe9c27622980a
+ms.openlocfilehash: a9f31bc339b47a80aa5d987f936ecf60e77cb85c
+ms.sourcegitcommit: ba256a5b3122d8093fa303521ceae57f7ab023ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "53425200"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58617011"
 ---
 # <a name="azure-batch-ai-apis-for-net"></a>API di Azure Batch per intelligenza artificiale per .NET
 
 >[!Note]
->**Azure Batch per intelligenza artificiale è in fase di ritiro.** Il supporto per questo servizio verrà ritirato in modo incrementale. Le funzionalità di Azure Batch per intelligenza artificiale sono ora disponibili come destinazione di calcolo gestita nel servizio Azure Machine Learning. Per altre informazioni, vedere [Che cosa accadrà al servizio Batch per intelligenza artificiale?](https://aka.ms/batchai-retirement)
+>**Il servizio Azure Batch per intelligenza artificiale è stato ritirato.** Le funzionalità di Azure Batch per intelligenza artificiale sono ora disponibili come destinazione di calcolo gestita nel servizio Azure Machine Learning. Per altre informazioni, vedere [Che cosa è accaduto al servizio Batch per intelligenza artificiale?](https://aka.ms/batchai-retirement)
 
 ## <a name="namespaces"></a>Spazi dei nomi
 
