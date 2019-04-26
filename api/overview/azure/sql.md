@@ -74,7 +74,7 @@ using (SqlConnection conn = new SqlConnection(connectionString))
 
 ## <a name="management-library"></a>Libreria di gestione
 
-Usare la libreria di gestione del database SQL di Azure per creare, gestire e ridimensionare le istanze del server del database SQL di Azure.
+Usare la libreria di gestione del database SQL di Azure per creare, gestire e ridimensionare le istanze del server di database SQL di Azure.
 
 Installare il [pacchetto NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Sql.Fluent/) direttamente dalla [Console di Gestione pacchetti](https://docs.microsoft.com/nuget/tools/package-manager-console) di Visual Studio o tramite l'[interfaccia della riga di comando di .NET Core](https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package).
 
@@ -92,7 +92,7 @@ dotnet add package Microsoft.Azure.Management.Sql.Fluent
 
 ### <a name="code-example"></a>Esempio di codice
 
-Questo esempio crea una nuova istanza del server del database SQL e quindi crea un nuovo database in tale istanza.
+Questo esempio crea una nuova istanza del server di database SQL e quindi crea un nuovo database in tale istanza.
 
 ```csharp
 /* Include these 'using' directives...
